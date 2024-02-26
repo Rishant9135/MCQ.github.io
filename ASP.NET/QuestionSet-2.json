@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Which is the correct basic syntax of the Control directive?",
+        "options": ["<%@ Control %>", "<%@ Control Language=\"C#\" EnableViewState=\"false\" %>", "<%@ Control Language=\"C#\" %>", "None of the above"],
+        "answer": "<%@ Control Language=\"C#\" EnableViewState=\"false\" %>",
+        "explanation": "The basic syntax of the Control directive is: <%@ Control Language=\"C#\" EnableViewState=\"false\" %>."
+    },
+    {
+        "question": "What is the file extension of Webservices in ASP.Net?",
+        "options": [".aspx", ".asp", ".asm", ".asmx"],
+        "answer": ".asmx",
+        "explanation": "The file extension of Webservices in ASP.Net is .asmx."
+    },
+    {
+        "question": "Which protocol is used to call a web service?",
+        "options": ["SOAP Protocol", "HTTP Protocol", "TCP Protocol", "FTP Protocol"],
+        "answer": "HTTP Protocol",
+        "explanation": "In ASP.Net, HTTP protocol is used to call a web service."
+    },
+    {
+        "question": "What is the parent class of all web server control in ASP.Net?",
+        "options": ["System.Web.UI.Control", "System.Web.Control", "System.Web.UI.WebServer", "All of the above"],
+        "answer": "System.Web.UI.Control",
+        "explanation": "The parent class of all web server control in ASP.Net is System.Web.UI.Control."
+    },
+    {
+        "question": "What is the difference between session object and application object in ASP.Net?",
+        "options": ["The session object is used to maintain the session of each user while an application object is created while a user enters in the application", "Session objects are created on the server while application objects are created on the client side.", "Session objects are used to handle database communication while application objects are used to handle communication between two different domains.", "All of the above"],
+        "answer": "The session object is used to maintain the session of each user while an application object is created while a user enters in the application",
+        "explanation": "The difference between a session object and an application object in ASP.Net is that: Session object is used to maintain the session of each user while an application object is created while a user enters the application."
+    },
+    {
+        "question": "What is the difference between Debug and Trace class in ASP.Net?",
+        "options": ["The Debug class is used to debug both builds and releases while the Trace class is used to debug the builds only", "Debug class is used in ASP core while Trace is used in ASP MCC", "The Debug class is used to debug the builds while the Trace class is used to debug both builds and releases", "All of the above"],
+        "answer": "The Debug class is used to debug the builds while the Trace class is used to debug both builds and releases",
+        "explanation": "The difference between Debug and Trace class in ASP.Net is - The Debug class is used to debug the builds while the Trace class is used to debug both builds and releases."
+    },
+    {
+        "question": "In ____, a non-virtual method is called which is decided at a compile time.",
+        "options": ["Late binding", "Early binding", "Lazy binding", "Global binding"],
+        "answer": "Early binding",
+        "explanation": "In early binding, a non-virtual method is called which is decided at a compile time."
+    },
+    {
+        "question": "In ____, a virtual method is called which is decided at runtime.",
+        "options": ["Late binding", "Early binding", "Lazy binding", "Global binding"],
+        "answer": "Late binding",
+        "explanation": "In late binding, a virtual method is called which is decided at runtime."
+    },
+    {
+        "question": "Which method is used to sign out from forms authentication?",
+        "options": ["Authentication.SignOut()", "Forms.UI.SignOut()", "FormsAuthentication.LogOut()", "FormsAuthentication.SignOut()"],
+        "answer": "FormsAuthentication.SignOut()",
+        "explanation": "To sign out from forms authentication - The FormsAuthentication.SignOut() method is used."
+    },
+    {
+        "question": "The ____ class is used to summarize the error messages from all validators on a Web page in a single location.",
+        "options": ["ValidationSummary", "Validation", "ErrorSummary", "Debug"],
+        "answer": "ValidationSummary",
+        "explanation": "The ValidationSummary class is used to summarize the error messages from all validators on a Web page in a single location."
+    },
+    {
+        "question": "Which method is used in ASP.Net to preserve page and control values between round trips?",
+        "options": ["Restore", "Modeling", "View State", "Model Preserve"],
+        "answer": "View State",
+        "explanation": "The View State method is used to preserve page and control values between round trips in ASP.Net."
+    },
+    {
+        "question": "What is the default timeout for a cookie in ASP.Net?",
+        "options": ["10 Minutes", "20 Minutes", "30 Minutes", "5 Minutes"],
+        "answer": "30 Minutes",
+        "explanation": "The default time timeout for a cookie in ASP.Net is 30 minutes."
+    },
+    {
+        "question": "What is the full form of SOAP in ASP.Net?",
+        "options": ["Simple Object Access Protocol", "Simple Object Advanced Protocol", "Simple Object Access Property", "Simple Object Advanced Property"],
+        "answer": "Simple Object Access Protocol",
+        "explanation": "In ASP.Net, the SOAP stands for Simple Object Access Protocol."
+    },
+    {
+        "question": "The Global.asax file is derived from the ____ class.",
+        "options": ["System.UI", "SoapApplication", "Application", "HttpApplication"],
+        "answer": "HttpApplication",
+        "explanation": "The Global.asax file is derived from the HttpApplication class."
+    },
+    {
+        "question": "Which is not a page event in ASP.Net?",
+        "options": ["PreLoad", "Load", "LoadComplete", "UpLoad"],
+        "answer": "UpLoad",
+        "explanation": "\"UpLoad\" is not a page event in ASP.Net."
+    },
+    {
+        "question": "How many navigation controls are in ASP.NET?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "explanation": "In ASP.Net, there are three navigation controls, they are: SiteMapPath, Menu, TreeView"
+    },
+    {
+        "question": "Can an ASP.Net web application run without web.config file?",
+        "options": ["Yes", "No"],
+        "answer": "Yes",
+        "explanation": "Yes, an ASP.Net web application can run without web.config file."
+    },
+    {
+        "question": "Which is/are the component(s) of ADO.NET?",
+        "options": ["Dataset", "Data Reader", "Data Adaptor", "Command", "Connection", "All of the above"],
+        "answer": "All of the above",
+        "explanation": "The components of ADO.Net are Dataset, Data Reader, Data Adaptor, Command, and connection."
+    },
+    {
+        "question": "In ____ page processing transfers from one page to the other page without making a round-trip back to the client's browser.",
+        "options": ["Response.Redirect", "Server.Redirect", "Client.Transfer", "Server.Transfer"],
+        "answer": "Server.Transfer",
+        "explanation": "In Server.Transfer page processing transfers from one page to the other page without making a round-trip back to the client's browser."
+    },
+    {
+        "question": "____is used to redirect the user's browser to another page or site.",
+        "options": ["Response.Redirect", "Server.Redirect", "Client.Transfer", "Server.Transfer"],
+        "answer": "Response.Redirect",
+        "explanation": "Response.Redirect is used to redirect the user's browser to another page or site."
+    },
+    {
+        "question": "Which is the correct syntax to add an event handler in ASP.Net?",
+        "options": ["Attributes(\"Event\",\"Javascript_Code();\")", "Attributes.Add(\"Event\",\"Javascript_Code();\")", "Attributes.Handle(\"Event\",\"Javascript_Code();\")", "None of the above"],
+        "answer": "Attributes.Add(\"Event\",\"Javascript_Code();\")",
+        "explanation": "The correct syntax to add an event handler in ASP.Net is: Attributes.Add(\"Event\",\"Javascript_Code();\")"
+    },
+    {
+        "question": "How many types of caching are there in ASP.Net?",
+        "options": ["2", "3", "4", "6"],
+        "answer": "3",
+        "explanation": "In ASP.Net, there are three types of caching, they are: Output Caching, Fragment Caching, Data Caching"
+    },
+    {
+        "question": "Which of the following statement are correct about Calendar control in ASP.NET?",
+        "options": ["It is an ASP.NET control, it shows the date in a calendar format.", "It is an ASP.NET control, it shows date and time in UTC format only.", "NET supports only one calendar control on one web form.", "NET supports more than one calendar control on one web form.", "1 and 3", "2 and 4", "1 and 4", "2 and 3"],
+        "answer": "1 and 4",
+        "explanation": "The 1st and 4th statements are correct about Calendar control in ASP.NET."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET Calendar control?",
+        "options": ["< asp:Calendar ID=\"Calendar1\" runat=\"server\" SelectedDate=\"2022-09-04\"></asp:Calendar>", "< asp:Cal ID=\"Calendar1\" runat=\"server\" SelectedDate=\"2022-09-04\" ></asp:Cal>", "< asp_net:Calendar ID=\"Calendar1\" runat=\"server\" SelectedDate=\"2022-09-04\" ></asp_net:Calendar>", "< asp:Calendar CAL_ID=\"Calendar1\" runat=\"server\" SelectedDate=\"2022-09-04\" ></asp:Calendar>"],
+        "answer": "< asp:Calendar ID=\"Calendar1\" runat=\"server\" SelectedDate=\"2022-09-04\"></asp:Calendar>",
+        "explanation": "The first syntax is correct to create an ASP.NET Calendar control."
+    },
+    {
+        "question": "Using ASP.NET Calendar control, can a user move any day of any year?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, using ASP.NET calendar control, the user can move any day of any year."
+    },
+    {
+        "question": "Visual studio supports drag and drops for calendar control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, Visual Studio supports drag and drop for calendar control."
+    },
+    {
+        "question": "Which of the following property is used to apply the style to days in Calendar control?",
+        "options": ["Style", "DayStyle", "StyleDay", "None of the above"],
+        "answer": "DayStyle",
+        "explanation": "The DayStyle property is used to apply the style to days in the Calendar control."
+    },
+    {
+        "question": "Which of the following property is used to apply the style to the day header row in Calendar control?",
+        "options": ["DayHeaderStyleRow", "DayHeaderStyle", "StyleHeaderDay", "None of the above"],
+        "answer": "DayHeaderStyle",
+        "explanation": "The DayHeaderStyle property is used to apply the style to the day header row in the Calendar control."
+    },
+    {
+        "question": "Can we apply the style to the month navigation button in Calendar control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can apply the style to the month navigation button using the \"NextPrevStyle\" property for Calendar control."
+    },
+    {
+        "question": "Which of the following event is triggered, when we make the selection in Calendar control?",
+        "options": ["Selection Change", "Selection Changed", "OnSelection Changed", "None of the above"],
+        "answer": "Selection Changed",
+        "explanation": "The SelectionChanged event is triggered when we make the selection in the Calendar control."
+    }
+]

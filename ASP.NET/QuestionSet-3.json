@@ -1,0 +1,170 @@
+[
+    {
+        "question": "Which of the following property is used to set custom text for the next month button in Calendar control?",
+        "options": ["Month Text", "Next Month Text", "Next Text Month", "NM Text"],
+        "answer": "Next Month Text",
+        "explanation": "The NextMonthText property is used to set custom text for the next month button in the Calendar control."
+    },
+    {
+        "question": "Which of the following property is not available for Calendar control in ASP.NET?",
+        "options": ["Font", "Fore Color", "Title Format", "None of the above"],
+        "answer": "None of the above",
+        "explanation": "All given properties are available for Calendar control in ASP.NET."
+    },
+    {
+        "question": "Which of the following statement is correct about CheckBox control in ASP.NET?",
+        "options": ["It is an ASP.NET control that is used to select a choice from the group of choices.", "It is an ASP.NET control that is used to select multiple choices from a group of choices.", "NET does not support Checkbox control in ASP.NET.", "None of the above"],
+        "answer": "It is an ASP.NET control that is used to select multiple choices from a group of choices.",
+        "explanation": "The CheckBox control is used to select multiple choices from the group of choices."
+    },
+    {
+        "question": "Is CheckBox an ASP.NET Client-Side control?",
+        "options": ["True", "False"],
+        "answer": "False",
+        "explanation": "The CheckBox is a server-side control in ASP.NET."
+    },
+    {
+        "question": "Can we bind an event handler with CheckBox control in ASP.NET?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can bind an event handler with CheckBox control in ASP.NET."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET CheckBox control?",
+        "options": ["<asp:CB ID=\"CB1\" runat=\"server\" Text=\"BCA\"/>", "<asp:Check-Box ID=\"CB1\" runat=\"server\" Text=\"BCA\"/>", "<asp_net:CheckBox ID=\"CB1\" runat=\"server\" Text=\"BCA\"/>", "<asp:CheckBox ID=\"CB1\" runat=\"server\" Text=\"BCA\"/>"],
+        "answer": "<asp:CheckBox ID=\"CB1\" runat=\"server\" Text=\"BCA\"/>",
+        "explanation": "The 4th syntax is correct to create an ASP.NET CheckBox control."
+    },
+    {
+        "question": "Which of the following tag is used for the HTML checkbox?",
+        "options": ["<check>", "<checkbox>", "<input>", "None of the above"],
+        "answer": "<input>",
+        "explanation": "The <input> tag is used to create HTML checkbox."
+    },
+    {
+        "question": "Which of the following property is used to set the check state for ASP.NET CheckBox control?",
+        "options": ["Check", "Checked", "Check State", "None of the above"],
+        "answer": "Checked",
+        "explanation": "The \"Checked\" property is used to set the check state for ASP.NET CheckBox control."
+    },
+    {
+        "question": "Which of the following property is used to set border width for ASP.NET CheckBox control?",
+        "options": ["Width", "Border Width", "Width Border", "None of the above"],
+        "answer": "Border Width",
+        "explanation": "The \"BorderWidth\" property is used to set border width for ASP.NET CheckBox control."
+    },
+    {
+        "question": "Can we apply ToolTip on CheckBox control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can apply ToolTip on CheckBox control."
+    },
+    {
+        "question": "Which of the following property is used to set the font for ASP.NET CheckBox control?",
+        "options": ["SetFont", "Font", "FontSize", "None of the above"],
+        "answer": "Font",
+        "explanation": "The \"Font\" property is used to set the font for ASP.NET CheckBox control."
+    },
+    {
+        "question": "Which of the following event is triggered on selection change for ASP.NET CheckBox control?",
+        "options": ["On Selection Changed", "Check Changed", "On Check Change", "None of the above"],
+        "answer": "Check Changed",
+        "explanation": "The \"CheckChanged\" event is used to trigger on selection change for ASP.NET CheckBox control."
+    },
+    {
+        "question": "Which of the following statement are correct about LinkButton control in ASP.NET?",
+        "options": ["The LinkButton and HyperLink both are the same controls.", "This control acts as a hyperlink, which is used to display a hyperlink-style button control.", "ASP.NET supports only LinkButton, it does not support Hyperlink.", "This is a client-side control used in HTML only.", "Only 1", "Only 2", "1 and 4", "2 and 3"],
+        "answer": "Only 2",
+        "explanation": "The 2nd statement is correct about LinkButton control in ASP.NET."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET LinkButton control?",
+        "options": ["<asp:LinkButton ID=\"ih\" runat=\"server\"/> My LinkButton </asp:LinkButton>", "<asp:Link ID=\"ih\" runat=\"server\"/> My LinkButton </asp:Link>", "<asp:LButton ID=\"ih\" runat=\"server\"/> My LinkButton </asp:LButton>", "<asp:Link_Button ID=\"ih\" runat=\"server\"/> My LinkButton </asp:Link_Button>"],
+        "answer": "<asp:LinkButton ID=\"ih\" runat=\"server\"/> My LinkButton </asp:LinkButton>",
+        "explanation": "The first syntax is correct to create an ASP.NET LinkButton control."
+    },
+    {
+        "question": "Can we implement an event handler for LinkButton?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can implement an event handler for LinkButton control in ASP.NET."
+    },
+    {
+        "question": "Which of the following property is used to set CSS Class to LinkButton control?",
+        "options": ["Set Css", "Css Class", "Css", "Class"],
+        "answer": "Css Class",
+        "explanation": "The \"CssClass\" property is used to set the CSS class to LinkButton control."
+    },
+    {
+        "question": "Which of the following property is used to enable or disable LinkButton control?",
+        "options": ["Enable", "Is Enable", "Enabled", "Disabled"],
+        "answer": "Enabled",
+        "explanation": "The \"Enabled\" property is used to enable or disable LinkButton control."
+    },
+    {
+        "question": "The PostBackUrl property gets or sets the URL of the page to navigate to from the current page?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, the PostBackUrl property is used to get or set the URL of the page to navigate from the current page."
+    },
+    {
+        "question": "Which of the following property is not available for LinkButton control?",
+        "options": ["Border Style", "Causes Validation", "Css Class", "None of the above"],
+        "answer": "None of the above",
+        "explanation": "All the given property is not available for LinkButton control."
+    },
+    {
+        "question": "Which of the following event handlers are available for LinkButton control?",
+        "options": ["On Click", "On Client Click", "On Command", "All the above", "1 and 2", "1 and 3", "2 and 3", "4"],
+        "answer": "All the above",
+        "explanation": "The given event handlers are available for LinkButton control."
+    },
+    {
+        "question": "The LinkButton control makes a postback call to the server before redirecting the user to the target page.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, The LinkButton control makes a postback call to the server before redirecting the user to the target page."
+    },
+    {
+        "question": "Which of the following statement is correct about FileUpload control in ASP.NET?",
+        "options": ["FileUpload control is used to upload webpages for a website.", "FileUpload control is used to upload files from the local machine to the server.", "FileUpload control is used to upload on C# file to the server.", "None of the above"],
+        "answer": "FileUpload control is used to upload files from the local machine to the server.",
+        "explanation": "The FileUpload control is used to upload files from the local machine to the server."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET FileUpload control?",
+        "options": ["<asp:FileUpload ID=\"FU1\" runat=\"server\"/>", "<asp:FU ID=\"FU1\" runat=\"server\"/>", "<asp:Upload ID=\"FU1\" runat=\"server\"/>", "<asp_net:Upload ID=\"FU1\" runat=\"server\"/>"],
+        "answer": "<asp:FileUpload ID=\"FU1\" runat=\"server\"/>",
+        "explanation": "The first syntax is correct to create an ASP.NET FileUpload control."
+    },
+    {
+        "question": "Can we upload multiple files to the server using FIleUpload control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can upload multiple files using FileUpload control."
+    },
+    {
+        "question": "Which of the following property is used to get the selected filename using FIleUpload control?",
+        "options": ["PostedFile.FileName", "FileName", "SelectedFile.FileName", "PostedFile"],
+        "answer": "PostedFile.FileName",
+        "explanation": "The \"FileUpload1.PostedFile.FileName\" property is used to get selected filename using FileUpload control."
+    },
+    {
+        "question": "Can we create a hyperlink using an HTML tag?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "The <a> tag is used in HTML to create a hyperlink."
+    },
+    {
+        "question": "Which of the following property is used to allow multiple selections of files from FileUpload control?",
+        "options": ["Access Multiple", "Upload Multiple", "Select Multiple", "Allow Multiple"],
+        "answer": "Allow Multiple",
+        "explanation": "The \"AllowMultiple\" property is used to allow multiple selections of files from FileUpload control in ASP.NET."
+    },
+    {
+        "question": "Which of the following method is used to save the selected file using FIleUpload control?",
+        "options": ["PostedFile.Upload()", "PostedFile.SaveAs()", "PostedFile.SaveFile()", "None of the above"],
+        "answer": "PostedFile.SaveAs()",
+        "explanation": "The \"FileUpload1.PostedFile.SaveAs()\" method is used to get selected filename using FileUpload control."
+    }
+]

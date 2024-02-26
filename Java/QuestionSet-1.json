@@ -1,0 +1,121 @@
+[{
+        "question": "JDK stands for ____.",
+        "options": ["Java development kit", "Java deployment kit", "JavaScript deployment kit", "None of these"],
+        "answer": "Java development kit",
+        "explanation": "JDK stands for Java Development Kit. It is a platform to develop and run Java applications."
+    },
+    {
+        "question": "JRE stands for ___.",
+        "options": ["Java run ecosystem", "JDK runtime Environment", "Java Runtime Environment", "None of these"],
+        "answer": "Java Runtime Environment",
+        "explanation": "JRE stands for Java Runtime Environment which provides an environment to run a java program."
+    },
+    {
+        "question": "What makes the Java platform independent?",
+        "options": ["Advanced programming language", "It uses bytecode for execution", "Class compilation", "All of these"],
+        "answer": "It uses bytecode for execution",
+        "explanation": "In Java, programs are compiled into bytecode and that bytecode is platform-independent."
+    },
+    {
+        "question": "Can we keep a different name for the java class name and java file name?",
+        "options": ["Yes", "No"],
+        "answer": "Yes",
+        "explanation": "Yes, we can keep different names for java filename and java class name if and only if the class is not public."
+    },
+    {
+        "question": "What are the types of memory allocated in memory in java?",
+        "options": ["Heap memory", "Stack memory", "Both A and B", "None of these"],
+        "answer": "Both A and B",
+        "explanation": "Memory allocation in java occurs in two ways, mainly, stack and heap space."
+    },
+    {
+        "question": "Multiline comment is created using ___.",
+        "options": ["//", "/* */", "<!--  -- >", "All of these"],
+        "answer": "/* */",
+        "explanation": "Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored by Java."
+    },
+    {
+        "question": "What is the entry point of a program in Java?",
+        "options": ["main() method", "The first line of code", "Last line of code", "main class"],
+        "answer": "main() method",
+        "explanation": "Generally, the main() method is treated as the point where the flow of code starts."
+    },
+    {
+        "question": "Can we write a program without a main method in Java?",
+        "options": ["Yes", "No"],
+        "answer": "Yes",
+        "explanation": "Yes, we can write a java program without the main() method but there is a condition if and only if java JDK version till JDK 5."
+    },
+    {
+        "question": "Can the main() method be overloaded in Java?",
+        "options": ["Yes", "No"],
+        "answer": "Yes",
+        "explanation": "Yes, We can overload the main method in java but JVM only calls the original main method, it will never call our overloaded main method."
+    },
+    {
+        "question": "Which keyword in java is used for exception handling?",
+        "options": ["exep", "excepHand", "throw", "All of these"],
+        "answer": "throw",
+        "explanation": "the throw is a keyword introduced in java for exception handling."
+    },
+    {
+        "question": "Which class in Java is used to take input from the user?",
+        "options": ["Scanner", "Input", "Applier", "None of these"],
+        "answer": "Scanner",
+        "explanation": "The Scanner class is used to get user input, and it is found in the java.util package."
+    },
+    {
+        "question": "Method used to take a string as input in Java?",
+        "options": ["next()", "nextLine()", "Both A. and B.", "None of these"],
+        "answer": "Both A. and B.",
+        "explanation": "The next() method can read the input only till the space. It can't read two words separated by space, while the nextLine() reads input including space between the words (that is, it reads till the end of line \\n)."
+    },
+    {
+        "question": "Which of the following is the correct syntax to create a variable in Java?",
+        "options": ["var name;", "int name;", "var name int;", "All of these"],
+        "answer": "int name;",
+        "explanation": "Read here: Java variable declarations"
+    },
+    {
+        "question": "Is string mutable in Java?",
+        "options": ["Yes", "No"],
+        "answer": "No",
+        "explanation": "String in Java is immutable i.e., once defined the value cannot be changed."
+    },
+    {
+        "question": "Which of these is a type of variable in Java?",
+        "options": ["Instance Variable", "Local Variable", "Static Variable", "All of these"],
+        "answer": "All of these",
+        "explanation": "There are three types of variables in Java: Instance variable, Local variable, Class/Static variable"
+    },
+    {
+        "question": "What will be the output of following Java code?",
+        "options": ["Hello", "Bye", "Error", "All of these"],
+        "answer": "Bye",
+        "explanation": ""
+    },
+    {
+        "question": "What is type casting in Java?",
+        "options": ["It is converting type of a variable from one type to another", "Casting variable to the class", "Creating a new variable", "All of these"],
+        "answer": "It is converting type of a variable from one type to another",
+        "explanation": "Type casting is when you assign a value of one primitive data type to another type."
+    },
+    {
+        "question": "Which type of casting is lossy in Java?",
+        "options": ["Widening typecasting", "Narrowing typecasting", "Manual typecasting", "All of these"],
+        "answer": "Narrowing typecasting",
+        "explanation": "In Narrowing typecasting data loss is there."
+    },
+    {
+        "question": "Which of the following can be declared as final in java?",
+        "options": ["Class", "Method", "Variable", "All of these"],
+        "answer": "All of these",
+        "explanation": "Class, method, and variables all can be declared as final in Java."
+    },
+    {
+        "question": "Finally block is attached to?",
+        "options": ["Try-catch block", "Class block", "Method block", "All of these"],
+        "answer": "Try-catch block",
+        "explanation": "Finally, block of code runs at the end of the try-catch block."
+    }
+]

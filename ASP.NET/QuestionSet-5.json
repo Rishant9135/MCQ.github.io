@@ -1,0 +1,260 @@
+[
+    {
+        "question": "Which of the following property is used to set background color for a Label control?",
+        "options": ["Back Color", "Background Color", "Bg Color", "None of the above"],
+        "answer": "Back Color",
+        "explanation": "The BackColor property is used to set the background color for a Label control."
+    },
+    {
+        "question": "What is ToolTip?",
+        "options": ["It is an application event", "It is a property", "It is a method", "None of the above"],
+        "answer": "It is a property",
+        "explanation": "ToolTip is a property for web controls."
+    },
+    {
+        "question": "Which of the following property is used to set password characters for a Textbox control?",
+        "options": ["Pass Char", "P Char", "Password Char", "None of the above"],
+        "answer": "Password Char",
+        "explanation": "The PasswordChar property is used to set password characters for a Textbox control."
+    },
+    {
+        "question": "How can we set the size for a Textbox control?",
+        "options": ["Using Size property", "Using Length Property", "Using MaxLength Property", "None of the above"],
+        "answer": "Using MaxLength Property",
+        "explanation": "The MaxLength property is used to set the number of characters for a Textbox control."
+    },
+    {
+        "question": "The AutoPostBack is?",
+        "options": ["A property", "An Event", "A Method", "None of the above"],
+        "answer": "A property",
+        "explanation": "The AutoPostBack is a property for web controls in ASP.NET."
+    },
+    {
+        "question": "Which of the following are textbox events in ASP.NET?",
+        "options": ["Key Press", "Text Changed", "Post Back", "Text Modified", "1 and 3", "1 and 2", "1 and 4", "3 and 4"],
+        "answer": "1 and 2",
+        "explanation": "The KeyPress and TextChanged are textbox events in ASP.NET."
+    },
+    {
+        "question": "Which of the following syntax is correct to create a textbox in ASP.NET?",
+        "options": ["<asp:TextBox ID=\"txtname\" runat=\"server\"></asp:TextBox>", "<TextBox ID=\"txtname\" runat=\"server\"></TextBox>", "<asp.net:TextBox ID=\"txtname\" runat=\"server\"><asp.net/TextBox>", "<asp-TextBox ID=\"txtname\" runat=\"server\"><asp-TextBox>"],
+        "answer": "<asp:TextBox ID=\"txtname\" runat=\"server\"></asp:TextBox>",
+        "explanation": "The 1st syntax is correct to create a textbox in ASP.NET."
+    },
+    {
+        "question": "Which of the following is the correct syntax for an event handler for a Button control in ASP.NET?",
+        "options": ["protected void MyButton_Click(object sender, EventArgs e){  }", "protected void MyButton_Click(EventArgs e){  }", "protected void MyButton_Click(object sender){  }", "protected void MyButton_Click(){  }"],
+        "answer": "protected void MyButton_Click(object sender, EventArgs e){  }",
+        "explanation": "The 1st syntax is correct to implement an event handler for a Button control in ASP.NET."
+    },
+    {
+        "question": "Can we validate textbox data using validation controls?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can validate textbox data using validation controls."
+    },
+    {
+        "question": "Webforms are made up using?",
+        "options": ["ASPX File", "Code behind file (.cs, .vb etc)", "Both of the above", "None of the above"],
+        "answer": "Both of the above",
+        "explanation": "The webforms are made up using visual portion (.aspx file) and code behind portion (.cs file)."
+    },
+    {
+        "question": "IIS stands for?",
+        "options": ["Internet Information Server", "Internet Information Services", "Inter Information Server", "Interactive Information Services"],
+        "answer": "Internet Information Services",
+        "explanation": "The IIS stands for Internet Information Services."
+    },
+    {
+        "question": "IIS is a?",
+        "options": ["Web Browser", "Web crawler", "Web Server", "None of the above"],
+        "answer": "Web Server",
+        "explanation": "The IIS is a web server, which is used to deploy web applications."
+    },
+    {
+        "question": "Which of the following are server controls in ASP.NET?",
+        "options": ["Button", "Textbox", "ImageButton", "LinkButton", "1 and 2", "1, 2, and 3", "Only 1", "All"],
+        "answer": "All",
+        "explanation": "All of the given options are server controls in ASP.NET."
+    },
+    {
+        "question": "Which of the following control works as a container?",
+        "options": ["Image Button", "Data Grid", "Panel", "Table"],
+        "answer": "Panel",
+        "explanation": "The Panel control is used as a container in ASP.NET."
+    },
+    {
+        "question": "Which of the following statement is correct about AdRotator control?",
+        "options": ["It is not an ASP.NET web form control", "It is a client-side control", "It is used to specify a list of ads to display", "It is used to display only hyperlinks"],
+        "answer": "It is used to specify a list of ads to display",
+        "explanation": "The AdRotator control is used to specify a list of ads to display. Each time user re-displays the page."
+    },
+    {
+        "question": "Which of the following control is used to create a group of checkboxes?",
+        "options": ["Check Box", "Check Box List", "Check Box Group", "Check Box Group List"],
+        "answer": "Check Box List",
+        "explanation": "The CheckBoxList control is used to create a group of checkboxes that all work together."
+    },
+    {
+        "question": "Which of the following controls has an 'ItemDataBound' Event?",
+        "options": ["Data List", "Data Grid", "Repeater", "All"],
+        "answer": "All",
+        "explanation": "All the given controls have an 'ItemDataBound' event."
+    },
+    {
+        "question": "Which of the following syntax is correct to create a textbox in ASP.NET?",
+        "options": ["<asp:TextBox ID=\"txtname\" runat=\"server\"></asp:TextBox>", "<TextBox ID=\"txtname\" runat=\"server\"></TextBox>", "<asp.net:TextBox ID=\"txtname\" runat=\"server\"><asp.net/TextBox>", "<asp-TextBox ID=\"txtname\" runat=\"server\"><asp-TextBox>"],
+        "answer": "<asp:TextBox ID=\"txtname\" runat=\"server\"></asp:TextBox>",
+        "explanation": "The 1st syntax is correct to create a textbox in ASP.NET."
+    },
+    {
+        "question": "Which of the following is the correct syntax for an event handler for a Button control in ASP.NET?",
+        "options": ["protected void MyButton_Click(object sender, EventArgs e){  }", "protected void MyButton_Click(EventArgs e){  }", "protected void MyButton_Click(object sender){  }", "protected void MyButton_Click(){  }"],
+        "answer": "protected void MyButton_Click(object sender, EventArgs e){  }",
+        "explanation": "The 1st syntax is correct to implement an event handler for a Button control in ASP.NET."
+    },
+    {
+        "question": "Can we validate textbox data using validation controls?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can validate textbox data using validation controls."
+    },
+    {
+        "question": "Webforms are made up using?",
+        "options": ["ASPX File", "Code behind file (.cs, .vb etc)", "Both of the above", "None of the above"],
+        "answer": "Both of the above",
+        "explanation": "The webforms are made up using visual portion (.aspx file) and code behind portion (.cs file)."
+    },
+    {
+        "question": "IIS stands for?",
+        "options": ["Internet Information Server", "Internet Information Services", "Inter Information Server", "Interactive Information Services"],
+        "answer": "Internet Information Services",
+        "explanation": "The IIS stands for Internet Information Services."
+    },
+    {
+        "question": "IIS is a?",
+        "options": ["Web Browser", "Web crawler", "Web Server", "None of the above"],
+        "answer": "Web Server",
+        "explanation": "The IIS is a web server, which is used to deploy web applications."
+    },
+    {
+        "question": "Which of the following are server controls in ASP.NET?",
+        "options": ["Button", "Textbox", "ImageButton", "LinkButton", "1 and 2", "1, 2, and 3", "Only 1", "All"],
+        "answer": "All",
+        "explanation": "All of the given options are server controls in ASP.NET."
+    },
+    {
+        "question": "Which of the following control works as a container?",
+        "options": ["Image Button", "Data Grid", "Panel", "Table"],
+        "answer": "Panel",
+        "explanation": "The Panel control is used as a container in ASP.NET."
+    },
+    {
+        "question": "Which of the following statement is correct about AdRotator control?",
+        "options": ["It is not an ASP.NET web form control", "It is a client-side control", "It is used to specify a list of ads to display", "It is used to display only hyperlinks"],
+        "answer": "It is used to specify a list of ads to display",
+        "explanation": "The AdRotator control is used to specify a list of ads to display. Each time user re-displays the page."
+    },
+    {
+        "question": "Which of the following control is used to create a group of checkboxes?",
+        "options": ["Check Box", "Check Box List", "Check Box Group", "Check Box Group List"],
+        "answer": "Check Box List",
+        "explanation": "The CheckBoxList control is used to create a group of checkboxes that all work together."
+    },
+    {
+        "question": "Which of the following controls has an 'ItemDataBound' Event?",
+        "options": ["Data List", "Data Grid", "Repeater", "All"],
+        "answer": "All",
+        "explanation": "All the given controls have an 'ItemDataBound' event."
+    },
+    {
+        "question": "Which of the following are the correct application events for DataList control?",
+        "options": ["Cancel Command", "Edit Command", "Delete Command", "Update Command", "1 and 2", "1, 3, 4", "All", "None"],
+        "answer": "All",
+        "explanation": "All of the following are correct application events for DataList control."
+    },
+    {
+        "question": "Which of the following control is used to create a group of checkboxes?",
+        "options": ["Check Box", "Check Box List", "Check Box Group", "Check Box Group List"],
+        "answer": "Check Box List",
+        "explanation": "The CheckBoxList control is used to create a group of checkboxes that all work together."
+    },
+    {
+        "question": "Which of the following controls has an 'ItemDataBound' Event?",
+        "options": ["Data List", "Data Grid", "Repeater", "All"],
+        "answer": "All",
+        "explanation": "All the given controls have an 'ItemDataBound' event."
+    },
+    {
+        "question": "Which of the following are the correct application events for DataList control?",
+        "options": ["Cancel Command", "Edit Command", "Delete Command", "Update Command", "1 and 2", "1, 3, 4", "All", "None"],
+        "answer": "All",
+        "explanation": "All of the following are correct application events for DataList control."
+    },
+    {
+        "question": "Can we use the Click event on ImageButton similar to Button control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can click event on ImageButton similar to the Button control."
+    },
+    {
+        "question": "Literal is a?",
+        "options": ["Server-side control", "Application Event", "Client-side control", "None of the above"],
+        "answer": "Server-side control",
+        "explanation": "Literal is a server-side control, it is like a label control that displays a literal."
+    },
+    {
+        "question": "Which of the following is not HTML control?",
+        "options": ["Text Field", "Text Area", "Place Holder", "Reset Button"],
+        "answer": "Place Holder",
+        "explanation": "The PlaceHolder is an ASP.NET server control, which is used to set the placeholder for the controls."
+    },
+    {
+        "question": "Which of the following tag is used to display a horizontal line?",
+        "options": ["<HR>", "<HL>", "<HB>", "None"],
+        "answer": "<HB>",
+        "explanation": "The <HR> tag is used to display a horizontal line."
+    },
+    {
+        "question": "HTML controls are?",
+        "options": ["Server-side controls", "Client-side controls", "Both", "None"],
+        "answer": "Client-side controls",
+        "explanation": "The HTML controls are client-side controls."
+    },
+    {
+        "question": "What is the full form of HR of <HR> tag?",
+        "options": ["Horizontal Rule", "Horizontal Relay", "Horizon Relay", "Horizon Rule"],
+        "answer": "Horizontal Rule",
+        "explanation": "The HR stands for Horizontal Rule of <HR> tag."
+    },
+    {
+        "question": "Which of the following statement is correct about 'Text Area' control?",
+        "options": ["It is used for multiline input on an HTML Form", "It is used for single-line input on an HTML Form", "It is not an HTML control", "It is an ASP.NET Server Control"],
+        "answer": "It is used for multiline input on an HTML Form",
+        "explanation": "The 'Text Area' control is used for multiline input on an HTML form."
+    },
+    {
+        "question": "Which of the following control is used to resets all other HTML form elements on a form to a default value?",
+        "options": ["Clear Button", "Default Button", "Reset Button", "Set Button"],
+        "answer": "Reset Button",
+        "explanation": "The Reset Button is used to resets all other HTML form elements on a form to a default value."
+    },
+    {
+        "question": "Can we display a picture using HTML control?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can display a picture or image using HTML image control."
+    },
+    {
+        "question": "Which of the following statement are correct application events for Calendar control?",
+        "options": ["Selection Changed", "Visible Month Changed", "Day Render", "CalEvent", "1, 2", "1, 2, 3", "1, 3", "1, 4"],
+        "answer": "1, 2, 3",
+        "explanation": "The Calendar control has the following application events: Selection Changed, Visible Month Changed, Day Render."
+    },
+    {
+        "question": "Is LinkButton control used to create a button that looks similar to the hyperlink?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, LinkButton control is used to create a button that looks similar to the hyperlink."
+    }
+]

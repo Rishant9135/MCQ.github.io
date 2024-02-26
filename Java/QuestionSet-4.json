@@ -1,0 +1,225 @@
+[{
+        "question": "Null in Java is ___.",
+        "options": [
+            "Reserved keyword",
+            "Literal value",
+            "Used in exception handling",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "All of the mentioned points are true about the Null in Java."
+    },
+    {
+        "question": "Enumeration in Java is ___.",
+        "options": [
+            "Data type which contains fixed set of constants",
+            "Method",
+            "Class",
+            "None of these"
+        ],
+        "answer": "Data type which contains fixed set of constants",
+        "explanation": "In Java, the Enumeration is a data type which contains a fixed set of constants, they are used to create our own data type like classes."
+    },
+    {
+        "question": "Can we pass objects to method arguments in Java?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "explanation": "We use call-by-reference to pass objects as arguments to methods in java."
+    },
+    {
+        "question": "Which of the following ways is the correct way to create an object in Java?",
+        "options": [
+            "Using the new keyword",
+            "Using newInstance() method",
+            "clone() method",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "All of the above-mentioned ways are the correct way to create an object Java."
+    },
+    {
+        "question": "Which statement is correct for private member in Java?",
+        "options": [
+            "Access outside the class is allowed",
+            "Any class can access",
+            "Declared using private keyword",
+            "All of these"
+        ],
+        "answer": "Declared using private keyword",
+        "explanation": "The private members are declared using the private keyword."
+    },
+    {
+        "question": "Which keyword is used to inherit classes in Java?",
+        "options": [
+            "extends",
+            "inheritance",
+            "isChild",
+            "None of these"
+        ],
+        "answer": "extends",
+        "explanation": "The extends keyword is used to inherit classes in Java."
+    },
+    {
+        "question": "Which of the following inheritance of class is invalid in Java?",
+        "options": [
+            "Single",
+            "Multiple",
+            "Multi-level",
+            "Hierarchical"
+        ],
+        "answer": "Multiple",
+        "explanation": "Java doesn't allow multiple inheritance."
+    },
+    {
+        "question": "The 'implements' keyword is used to ___.",
+        "options": [
+            "Implement the function of a class",
+            "Inherit an interface in Java",
+            "Inherit a class in java",
+            "All of these"
+        ],
+        "answer": "Inherit an interface in Java",
+        "explanation": "The implements keyword is used to inherit an interface in Java."
+    },
+    {
+        "question": "What is polymorphism in Java?",
+        "options": [
+            "Performing a single task in multiple ways",
+            "Performing multiple tasks using multiple methods",
+            "Creating a new class for each task",
+            "All of these"
+        ],
+        "answer": "Performing a single task in multiple ways",
+        "explanation": "Polymorphism in Java is the ability of an object to take many forms."
+    },
+    {
+        "question": "What are packages in Java?",
+        "options": [
+            "Methods of a friend class",
+            "Methods of the main class",
+            "Way to encapsulate a group of classes, sub-packages, and interface",
+            "All of these"
+        ],
+        "answer": "Way to encapsulate a group of classes, sub-packages, and interface",
+        "explanation": "Java packages are the ways to encapsulate a group of classes, sub-packages, and interface."
+    },
+    {
+        "question": "Empty interface in Java is called?",
+        "options": [
+            "Marker interface",
+            "Abstract class",
+            "Derived class",
+            "None of these"
+        ],
+        "answer": "Marker interface",
+        "explanation": "Empty interface is called Marker interface in Java."
+    },
+    {
+        "question": "Which of these is a non-access modifier?",
+        "options": [
+            "public",
+            "private",
+            "native",
+            "All of these"
+        ],
+        "answer": "native",
+        "explanation": "The native is a non-access modifier in Java."
+    },
+    {
+        "question": "When a finally block executed in Java?",
+        "options": [
+            "Try block is executed without any exception",
+            "Exception has occurred",
+            "Executed at last",
+            "None of these"
+        ],
+        "answer": "Executed at last",
+        "explanation": "Finally block is executed at the last."
+    },
+    {
+        "question": "What is boolean in Java?",
+        "options": [
+            "A value consisting of only true and false value",
+            "A value consisting of 8 values",
+            "Truthy value in java",
+            "All of these"
+        ],
+        "answer": "A value consisting of only true and false value",
+        "explanation": "In Java, the boolean keyword is a primitive data type. It is used to store only two possible values, either true or false."
+    },
+    {
+        "question": "Which of these is not a valid Boolean method in Java?",
+        "options": [
+            "equals() method",
+            "hashCode() method",
+            "toString() method",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "All are valid Boolean class methods. Some common methods are equals(), hashCode(), toString(), valueOf(), etc."
+    },
+    {
+        "question": "Which method in Java is used to check for NaN values?",
+        "options": [
+            "isNan()",
+            "checkNan()",
+            "isNotNan()",
+            "All of these"
+        ],
+        "answer": "isNan()",
+        "explanation": "The isNaN() method is used to check for NaN values."
+    },
+    {
+        "question": "Which of these is a property of threads in Java?",
+        "options": [
+            "Multiple threads can be executed concurrently",
+            "Has its own priority",
+            "Both A. and B.",
+            "None of these"
+        ],
+        "answer": "Both A. and B.",
+        "explanation": "The multiple threads can be executed concurrently and it has own property."
+    },
+    {
+        "question": "Which thread is executed in the background?",
+        "options": [
+            "New thread",
+            "User-created thread",
+            "Daemon thread",
+            "All of these"
+        ],
+        "answer": "Daemon thread",
+        "explanation": "The daemon thread is executed in the background."
+    },
+    {
+        "question": "Multithreading in java is ___.",
+        "options": [
+            "Executing multiple processes simultaneously",
+            "Creating more threads at a time",
+            "Blocking threads",
+            "All of these"
+        ],
+        "answer": "Executing multiple processes simultaneously",
+        "explanation": "Multithreaded programming a process in which two or more parts of the same process run simultaneously."
+    },
+    {
+        "question": "What will be the output of following Java code?\n\npublic class Main {\n  public static void main(String[] args) {\n    System.out.println(Math.copySign(100.6, -200.6));\n  }\n}",
+        "options": [
+            "100.6",
+            "-100.6",
+            "-200.6",
+            "200.6"
+        ],
+        "answer": "-100.6",
+        "explanation": "The Math.copySign() returns the first floating-point argument with the sign of the second floating-point argument."
+    },
+    {
+        "question": "Discuss the following Question",
+        "options": [],
+        "answer": "",
+        "explanation": "convert above question into above provided soluiton in json format"
+    }
+]

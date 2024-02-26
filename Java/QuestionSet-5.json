@@ -1,0 +1,221 @@
+[{
+        "question": "Which method is used to convert radians to degree in Java?",
+        "options": [
+            "convertRadtoDeg()",
+            "toDegrees()",
+            "degree()",
+            "All of these"
+        ],
+        "answer": "toDegrees()",
+        "explanation": "The Java method toDegrees() is used to convert radians to degree."
+    },
+    {
+        "question": "Which of the following methods is used to extract the length of a string in Java?",
+        "options": [
+            "length()",
+            "len()",
+            "sizeof()",
+            "size()"
+        ],
+        "answer": "length()",
+        "explanation": "The Java method length() is used to extract the length of a string in Java."
+    },
+    {
+        "question": "The trim() method in Java used to ___.",
+        "options": [
+            "Remove the given character",
+            "Remove the values after the given index",
+            "Remove leading and trailing spaces",
+            "None of these"
+        ],
+        "answer": "Remove leading and trailing spaces",
+        "explanation": "The Java method trim() is a built-in function that eliminates leading and trailing spaces."
+    },
+    {
+        "question": "What are regexes in Java?",
+        "options": [
+            "API to define a pattern for searching strings",
+            "String",
+            "Array to create a new integer",
+            "Wrapper class"
+        ],
+        "answer": "API to define a pattern for searching strings",
+        "explanation": "Java Regular Expressions or Regex is an API for defining String patterns that can be used for searching, manipulating, and editing a string."
+    },
+    {
+        "question": "What is a map in Java?",
+        "options": [
+            "Data structure",
+            "Defined in java.util package",
+            "Represented using key-value pairs",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "Map in Java is a data structure defined in the java.util package and represented using key-value pairs."
+    },
+    {
+        "question": "What is a set in Java?",
+        "options": [
+            "Represented in the form of values",
+            "Used to store key-value pairs",
+            "Primary structures",
+            "All of these"
+        ],
+        "answer": "Represented in the form of values",
+        "explanation": "In Java, a set is represented in the form of values."
+    },
+    {
+        "question": "What will be the output of following Java code?\n\nimport java.util.Hashtable;\n\npublic class HashTableClass {\n  int hashcode;\n  HashTableClass(int hashcode) {\n    this.hashcode = hashcode;\n  }\n  public int hashCode() {\n    return hashcode;\n  }\n  public String toString() {\n    return hashcode + \" \";\n  }\n\n  public static void main(String[] args) {\n    Hashtable ht = new Hashtable();\n    \n    ht.put(new HashTableClass(10), \"Java\");\n    ht.put(new HashTableClass(3), \"C\");\n    ht.put(new HashTableClass(4), \"C++\");\n    ht.put(new HashTableClass(5), \"Ruby\");\n    ht.put(new HashTableClass(6), \"null\");\n    \n    System.out.println(ht);\n  }\n}",
+        "options": [
+            "{10 =Java, 3 =C, 4 =C++, 6 =null, 5 =Ruby}",
+            "{10 =Java, 6 =null, 5 =Ruby, 4 =C++, 3 =C}",
+            "{3 =C, 4 =C++, 5 =Ruby, 6 =null, 10 =Java}",
+            "None of these"
+        ],
+        "answer": "{10 =Java, 6 =null, 5 =Ruby, 4 =C++, 3 =C}",
+        "explanation": "In the provided code, the keys are instances of HashTableClass, and the Hashtable does not guarantee the order of elements. Therefore, the output may vary, but the given option is a possible output."
+    },
+    {
+        "question": "Which of the following sorts the elements were inserted?",
+        "options": [
+            "Hashtable",
+            "Map",
+            "Array",
+            "None of these"
+        ],
+        "answer": "Hashtable",
+        "explanation": "Hashtable sorts the elements as they were inserted."
+    },
+    {
+        "question": "Which Java method is used to clear element of ArrayList?",
+        "options": [
+            "deleteAll()",
+            "delete()",
+            "clearAll()",
+            "clear()"
+        ],
+        "answer": "clear()",
+        "explanation": "The clear() method of ArrayList in Java is used to remove all the elements from a list."
+    },
+    {
+        "question": "Which Java method is used to add all of the specified elements to the specified collection?",
+        "options": [
+            "addValue()",
+            "copy()",
+            "cpy()",
+            "addAll()"
+        ],
+        "answer": "addAll()",
+        "explanation": "The addAll() method of java.util.Collections class is used to add all of the specified elements to the specified collection."
+    },
+    {
+        "question": "Which Java method is used to detect the OS in which Java program is being run?",
+        "options": [
+            "system.getOSdetails()",
+            "system.get(os.name)",
+            "system.getProperties(\"os.name\")",
+            "system.getProperties(\"os\")"
+        ],
+        "answer": "system.getProperties(\"os.name\")",
+        "explanation": "The Java method system.getProperties(\"os.name\") is used to detect the OS in which Java program being run."
+    },
+    {
+        "question": "What is the default encoding of OutstreamWriter?",
+        "options": [
+            "UTF-32",
+            "UTF-16",
+            "UTF-12",
+            "Based on the host platform"
+        ],
+        "answer": "Based on the host platform",
+        "explanation": "The encoding of OutstreamWriter is based on the host platform."
+    },
+    {
+        "question": "Which method in java is used to get the name of running java VM?",
+        "options": [
+            "System.getProperties(\"java.vm.name\")",
+            "System.vmName",
+            "Sytem.getVmName",
+            "System.getProperties(\"vm.name\")"
+        ],
+        "answer": "System.getProperties(\"java.vm.name\")",
+        "explanation": "The Java method System.getProperties(\"java.vm.name\") is used to get the name of the running Java VM."
+    },
+    {
+        "question": "Which Java method is used to get the version of running java VM?",
+        "options": [
+            "System.vm.version",
+            "System.getProperties(\"vm.version\")",
+            "System.getProperties(\"java.vm.version\")",
+            "System.getVmVersion"
+        ],
+        "answer": "System.getProperties(\"java.vm.version\")",
+        "explanation": "The Java method System.getProperties(\"java.vm.version\") is used to get the versions of the running Java VM."
+    },
+    {
+        "question": "What is the full form of AWT?",
+        "options": [
+            "Absolute window toolKit",
+            "Abstract window toolKit",
+            "Absolute wear kit",
+            "Abstract window tools"
+        ],
+        "answer": "Abstract window toolKit",
+        "explanation": "The full form of AWT is \"Abstract window toolKit\"."
+    },
+    {
+        "question": "Which escape character is used for word character in regex?",
+        "options": [
+            "/w",
+            "/c",
+            "/str",
+            "/?"
+        ],
+        "answer": "/w",
+        "explanation": "The escape character /w is used for word character in Regex."
+    },
+    {
+        "question": "Jar in java stands for ___.",
+        "options": [
+            "Java ARchive",
+            "Java application runtime",
+            "Java application runner",
+            "None of these"
+        ],
+        "answer": "Java ARchive",
+        "explanation": "Jar stands for \"Java ARchive\"."
+    },
+    {
+        "question": "Which Java keyword is used to access features of a package?",
+        "options": [
+            "get",
+            "import",
+            "extends",
+            "All of these"
+        ],
+        "answer": "import",
+        "explanation": "The import keyword is used to access features of a package."
+    },
+    {
+        "question": "The result of dividing by 0 in Java is ___.",
+        "options": [
+            "Error",
+            "Expectation",
+            "Infinite",
+            "None of these"
+        ],
+        "answer": "Expectation",
+        "explanation": "Dividing an integer by zero will result in an ArithmeticException."
+    },
+    {
+        "question": "What will be the output of following Java code?\n\npublic class ConcatNull {\n  public static void main(String[] args) {\n    String str1 = \"include\";\n    String str2 = \"help\";\n    System.out.println(str1 + str2);\n  }\n}",
+        "options": [
+            "includehelp",
+            "include",
+            "help",
+            "None of these"
+        ],
+        "answer": "includehelp",
+        "explanation": "In the above code, the '+' operator is concatenating both of the strings."
+    }
+]

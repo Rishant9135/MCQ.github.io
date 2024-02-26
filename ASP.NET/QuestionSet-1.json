@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the full form ASP?",
+        "options": ["Access Server Pages", "Active Service Pages", "Active Server Pages", "Access Service Pages"],
+        "answer": "Active Server Pages",
+        "explanation": "ASP stands for Active Server Pages."
+    },
+    {
+        "question": "ASP.NET is a ____.",
+        "options": ["Client-Side technology", "Server-side technology", "Both", "None"],
+        "answer": "Server-side technology",
+        "explanation": "ASP.NET is a server-side technology used for web development."
+    },
+    {
+        "question": "Which of the following programming language can be used with ASP.NET?",
+        "options": ["C#.NET", "VB.NET", "Both", "None"],
+        "answer": "Both",
+        "explanation": "ASP.NET can be used with both C#.NET and VB.NET for web development."
+    },
+    {
+        "question": "What is the extension of the ASP.NET page?",
+        "options": [".asp", ".aspx", ".asx", ".apx"],
+        "answer": ".aspx",
+        "explanation": "The extension of ASP.NET page is .aspx."
+    },
+    {
+        "question": "Is ASP.NET Web form part of ASP.NET core?",
+        "options": ["Yes", "No"],
+        "answer": "No",
+        "explanation": "The ASP.NET web form is not part of the ASP.NET core."
+    },
+    {
+        "question": "Which of the following technologies are also used with ASP.NET?",
+        "options": ["CSS", "JavaScript", "AJAX", "All"],
+        "answer": "All",
+        "explanation": "We can use CSS, JavaScript, and AJAX with ASP.NET for web application development."
+    },
+    {
+        "question": "In which form does Postback occur?",
+        "options": ["Win Forms", "HTML Forms", "Web Forms", "All"],
+        "answer": "Web Forms",
+        "explanation": "The Postback occurs in Web Forms."
+    },
+    {
+        "question": "What is the correct use of the web.config file?",
+        "options": ["To store global information and variable definitions", "To configure the domain server", "To configure to domain client", "Store information about web browser"],
+        "answer": "To store global information and variable definitions",
+        "explanation": "The web.config file is used to store global information and variable definition."
+    },
+    {
+        "question": "Is ASP.NET web form supports an event-driven application model?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "The ASP.NET web supports an event-driven application model."
+    },
+    {
+        "question": "MVC stands for ____.",
+        "options": ["Model Vocal Controller", "Model View Count", "Model View Controller", "Mode View Controller"],
+        "answer": "Model View Controller",
+        "explanation": "The MVC stands for Model View Controller."
+    },
+    {
+        "question": "What namespace is used for ASP.NET Web Form by default?",
+        "options": ["System.Web.Form", "System.Web.UI.Page", "System.Web.GUI.Page", "System.Web.UI.Form"],
+        "answer": "System.Web.UI.Form",
+        "explanation": "The System.Web.UI.Form namespace is used for ASP.NET web form by default."
+    },
+    {
+        "question": "Which of the following attribute must be set on a validator control for the validation?",
+        "options": ["ControlToValidate", "ValidateControl", "ValidateToBind", "ValidateBind"],
+        "answer": "ControlToValidate",
+        "explanation": "The ControlToValidate attribute must be set on a validator control for the validation."
+    },
+    {
+        "question": "Can we style tree view, and menus with CSS?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "We can style tree-view, menus with CSS."
+    },
+    {
+        "question": "The CSS stands for ____.",
+        "options": ["Client Style Sheet", "Cascading Style Sheet", "Common Style Sheet", "Cascading Simple Sheet"],
+        "answer": "Cascading Style Sheet",
+        "explanation": "The CSS stands for 'Cascading Style Sheet'."
+    },
+    {
+        "question": "Which term is used for pages that depend on the Master page?",
+        "options": ["Content Pages", "Master Pages", "Web Pages", "None of the above"],
+        "answer": "Content Pages",
+        "explanation": "The term is used for pages that depend on the Master page are Content Pages."
+    },
+    {
+        "question": "Every Server control of ASP.NET must have an id?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Every Server control must have an id."
+    },
+    {
+        "question": "Which file contains the Application_Start event?",
+        "options": ["Global.asax", "Web.config", "Local.asax", "None"],
+        "answer": "Global.asax",
+        "explanation": "The 'Global.asax' file contains the Application_Start event."
+    },
+    {
+        "question": "Which of the following is not an ASP.NET event?",
+        "options": ["Init", "Import", "Load", "All"],
+        "answer": "Import",
+        "explanation": "The Import is not an ASP.NET event."
+    },
+    {
+        "question": "What is the return type of IsPostBack property?",
+        "options": ["Integer", "Boolean", "Float", "All"],
+        "answer": "Boolean",
+        "explanation": "The return type of the IsPostBack property is Boolean."
+    },
+    {
+        "question": "Can we use ASPX pages in MVC?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can use ASP pages in the MVC application."
+    },
+    {
+        "question": "Which of the following folder is used to store DLL files in the ASP.NET application?",
+        "options": ["App_Code", "App_Data", "Bin", "App_Local"],
+        "answer": "Bin",
+        "explanation": "The Bin folder is used to store DLL files in the ASP.NET application."
+    },
+    {
+        "question": "The ASP.NET developed by?",
+        "options": ["Google", "Oracle", "Sun Microsystems", "Microsoft"],
+        "answer": "Microsoft",
+        "explanation": "The ASP.NET was developed by Microsoft."
+    },
+    {
+        "question": "Which of the following method is used to register client script using code dynamically?",
+        "options": ["Page.ClientScript.RegisterClientScriptBlock", "RegisterScript", "Page.ClientScript", "None"],
+        "answer": "Page.ClientScript.RegisterClientScriptBlock",
+        "explanation": "The Page.ClientScript.RegisterClientScriptBlock method is used to register client scripts using code dynamically."
+    },
+    {
+        "question": "Which is the first event triggered when a user requests an ASP.NET page?",
+        "options": ["Load", "Init", "PreInit", "PreLoad"],
+        "answer": "PreInit",
+        "explanation": "The PreInit event gets triggered when a user requests an ASP.NET page."
+    },
+    {
+        "question": "Which of the following is not an ASP.NET component?",
+        "options": ["LinkCounter", "Counter", "AdRotator", "File Access"],
+        "answer": "LinkCounter",
+        "explanation": "The LinkCounter is not an ASP.NET component."
+    },
+    {
+        "question": "Which Session Mode Serialization is not required to store the data?",
+        "options": ["SQLServer", "StateServer", "InProc", "None"],
+        "answer": "InProc",
+        "explanation": "The InProc Session Mode Serialization is not required to store the data."
+    },
+    {
+        "question": "Which development model(s) is/are supported by ASP.Net?",
+        "options": ["Asp.Net Web Forms", "Asp.Net MVC", "Asp.Net Web Pages", "Asp.Net API", "All of the above"],
+        "answer": "All of the above",
+        "explanation": "ASP supports many different development models:\n\nClassic ASP\nASP.NET Web Forms\nASP.NET MVC\nASP.NET Web Pages\nASP.NET API\nASP.NET Core"
+    },
+    {
+        "question": "The SessionIDs are stored in ____ by ASP.Net?",
+        "options": ["Cache", "Server", "Database", "Cookies"],
+        "answer": "Cookies",
+        "explanation": "By default, the session IDs are stored in Cookies."
+    },
+    {
+        "question": "Which is the correct basic syntax of Application directive?",
+        "options": ["<%@ Application Language=\"C#\" %>", "<!-- Application Language=\"C#\" -->", "<%@ Application_DIR Language=\"C#\" %>", "<%@ DIR @Application Language=\"C#\" %>"],
+        "answer": "<%@ Application Language=\"C#\" %>",
+        "explanation": "The basic syntax of the Application directive is:\n\n<%@ Application Language=\"C#\" %>"
+    },
+    {
+        "question": "Which is the correct basic syntax of the Assembly directive?",
+        "options": ["<%@ Assembly @ Name =\"myassembly\" %>", "<%@@ Assembly Name =\"myassembly\" %>", "<%@ Assembly Name =\"C# myassembly\" %>", "<%@ Assembly Name =\"myassembly\" %>"],
+        "answer": "<%@ Assembly Name =\"myassembly\" %>",
+        "explanation": "The basic syntax of the Assembly directive is:\n\n<%@ Assembly Name =\"myassembly\" %>"
+    }
+]

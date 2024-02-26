@@ -1,0 +1,233 @@
+[
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet cars = ['Honda', 'Hyundai'];\ncars.push('Mahindra');\ndocument.write(typeof cars + \" \" + cars);\n```",
+        "options": [
+            "array Honda,Hyundai,Mahindra",
+            "string Honda,Hyundai,Mahindra",
+            "object Honda,Hyundai,Mahindra",
+            "object \"Honda\", \"Hyundai\", \"Mahindra\""
+        ],
+        "answer": "object \"Honda\", \"Hyundai\", \"Mahindra\""
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet cars1 = ['Honda', 'Hyundai'];\nlet cars2 = cars1;\n\ncars1.push('Mahinda');\n\ndocument.write(cars1 + \"---\" + cars2);\n```",
+        "options": [
+            "Honda,Hyundai,Mahinda---Honda,Hyundai",
+            "Honda,Hyundai,Mahinda---Honda,Hyundai,Mahinda",
+            "Honda,Hyundai ---Honda,Hyundai",
+            "[Honda,Hyundai,Mahinda]---[Honda,Hyundai,Mahinda]"
+        ],
+        "answer": "Honda,Hyundai,Mahinda---Honda,Hyundai,Mahinda"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nvar msgs=new Array(\"Hello\",\"Hey\",\"Morning!\");\n\nfor (i=0;i<msgs.length;i++){\n    document.write(msgs[i] + \" | \");\n}\n```",
+        "options": [
+            "Hello | Hey | Morning! |",
+            "Hello | Hey |",
+            "ValueError",
+            "TypeError"
+        ],
+        "answer": "Hello | Hey | Morning! |"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nvar values = [10, 20, 30, 40];\n\nvar result = values.reduceRight(function(x,y){\n    return (x + y);\n});\n\ndocument.write(\"Result: \" + result);\n```",
+        "options": [
+            "Result: 40",
+            "Result: 70",
+            "Result: 90",
+            "Result: 100"
+        ],
+        "answer": "Result: 100"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nvar cars = [\"Honda\",\"Hyundai\",\"Mahindra\"];\n\nvar result = cars.shift();\n\ndocument.writeln(\"Result: \", cars);\n```",
+        "options": [
+            "Result: Honda,Hyundai,Mahindra",
+            "Result: Honda",
+            "Result: Hyundai,Mahindra",
+            "Result: Honda,Mahindra"
+        ],
+        "answer": "Result: Hyundai,Mahindra"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nvar cars = [\"Honda\",\"Hyundai\",\"Mahindra\"];\n\nvar result = cars.unshift(\"Toyota\", \"Tata\");\n\ndocument.writeln(\"[\", result, \"] \", cars);\n```",
+        "options": [
+            "[5] Toyota,Tata,Honda,Hyundai,Mahindra",
+            "[5]Honda,Hyundai,Mahindra,Toyota,Tata",
+            "[2] Toyota,Tata",
+            "[5] Honda,Hyundai,Toyota,Tata,Mahindra"
+        ],
+        "answer": "[5] Toyota,Tata,Honda,Hyundai,Mahindra"
+    },
+    {
+        "question": "Which JavaScript method is used to call a function (a callback function) once for each array element?",
+        "options": [
+            "forEach()",
+            "map()",
+            "forMap()",
+            "filter()"
+        ],
+        "answer": "forEach()"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nconst arr = [10, 20, 30];\nlet result = 0;\n\narr.forEach(myFunction);\n\ndocument.write(\"Result: \" , result)\nfunction myFunction(value, index, array) {\n  result += value; \n}\n```",
+        "options": [
+            "Result: 60",
+            "Result: 102030",
+            "Result: 10,20,30",
+            "ValueError"
+        ],
+        "answer": "Result: 60"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nconst values = [10, 20, 30];\nconst result = values.map(myFunction);\n\ndocument.write(\"Result: \", result);\n\nfunction myFunction(value, index, array) {\n  return value * value;\n}\n```",
+        "options": [
+            "Result: 10,20,30",
+            "Result: 10*10,20*20,30*30",
+            "Result: 100,400,900",
+            "ValueError"
+        ],
+        "answer": "Result: 100,400,900"
+    },
+    {
+        "question": "Which JavaScript method is used to create a new array with array elements that passes a test?",
+        "options": [
+            "forEach()",
+            "map()",
+            "forMap()",
+            "filter()"
+        ],
+        "answer": "filter()"
+    },
+    {
+        "question": "Which JavaScript object works with the dates?",
+        "options": [
+            "Date",
+            "DateTime",
+            "date",
+            "dateTime"
+        ],
+        "answer": "Date"
+    },
+    {
+        "question": "Which JavaScript statement(s) is correct to create Date object(s) with new Date() constructor?",
+        "options": [
+            "new Date()",
+            "new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+            "new Date(milliseconds)",
+            "new Date(date string)",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nconst curr = new Date();\ndocument.write(curr);\n```",
+        "options": [
+            "Tue Dec 21 2021 13:04:36 GMT+0530",
+            "Tue Dec 21 2021 13:04:36 (India Standard Time)",
+            "Tue Dec 21 2021 13:04:36::00::01 GMT+0530 (India Standard Time)",
+            "Tue Dec 21 2021 13:04:36 GMT+0530 (India Standard Time)"
+        ],
+        "answer": "Tue Dec 21 2021 13:04:36 GMT+0530 (India Standard Time)"
+    },
+    {
+        "question": "Which method is used to get the year of a date as a four-digit number?",
+        "options": [
+            "getYear()",
+            "fullYear()",
+            "getFullYear()",
+            "getfullyear()"
+        ],
+        "answer": "getFullYear()"
+    },
+    {
+        "question": "What does the Date object's method getTime() return?",
+        "options": [
+            "Date in DD-MM-YYYY format",
+            "Date in DD MON YYYY format",
+            "Date in MON, DD YYYY format",
+            "Number of milliseconds since January 1, 1970"
+        ],
+        "answer": "Number of milliseconds since January 1, 1970"
+    },
+    {
+        "question": "Which JavaScript method is used to convert a date to a UTC string (a date display standard)?",
+        "options": [
+            "toUTCString()",
+            "toUtcString()",
+            "utcString()",
+            "toutcstring()"
+        ],
+        "answer": "toUTCString()"
+    },
+    {
+        "question": "The internal clock in JavaScript counts from midnight _____.",
+        "options": [
+            "January 1, 1972",
+            "January 1, 1947",
+            "January 1, 1980",
+            "January 1, 1970"
+        ],
+        "answer": "January 1, 1970"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\ndocument.write(Math.round(107.5))\n```",
+        "options": [
+            "107.5",
+            "107",
+            "108",
+            "107.00"
+        ],
+        "answer": "108"
+    },
+    {
+        "question": "Which JavaScript method is used to call a function (a callback function) once for each array element?",
+        "options": [
+            "forEach()",
+            "map()",
+            "forMap()",
+            "filter()"
+        ],
+        "answer": "forEach()"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\ntry{\n\tconst cars = {  \n\t\tcompany: 'Honda'\n\t};  \n\n\tdelete cars.company;\n\tdocument.write(cars.company);  \n}\ncatch (err){\n\tdocument.write(err.message);\n}\n```",
+        "options": [
+            "undefined",
+            "Honda",
+            "ValueError",
+            "TypeError"
+        ],
+        "answer": "undefined"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\ntry{\n    const cars = {  \n        company: 'Honda'\n    };  \n    \n    Object.seal(cars);\n    delete cars.company;\n    document.write(cars.company);  \n}\ncatch (err){\n    document.write(err.message);\n}\n```",
+        "options": [
+            "undefined",
+            "Honda",
+            "ValueError",
+            "TypeError"
+        ],
+        "answer": "Honda"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet x = \"10\";\nlet y = + x;\n\ndocument.write(typeof y);\n```",
+        "options": [
+            "string",
+            "object",
+            "undefined",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet x = 10;\n\ndocument.write(typeof x, \" , \", typeof String(x));\n```",
+        "options": [
+            "number , string",
+            "number , number",
+            "object , string",
+            "object , object"
+        ],
+        "answer": "number , string"
+    }
+]

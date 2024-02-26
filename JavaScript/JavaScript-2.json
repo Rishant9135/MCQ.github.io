@@ -1,0 +1,194 @@
+[
+    {
+        "question": "What is the main difference between var and let keywords in JavaScript?",
+        "options": [
+            "var defines a variable while let defines a constant",
+            "var defined function scoped variable while let define block scoped variable",
+            "The value of a variable declared with var can be changed while the value of a variable declared with let cannot be changed",
+            "All of the above"
+        ],
+        "answer": "var defined function scoped variable while let define block scoped variable"
+    },
+    {
+        "question": "The const keyword is used to define a ______.",
+        "options": [
+            "Function scopes variable",
+            "Block scoped variable",
+            "Constant",
+            "Constant with no initial value"
+        ],
+        "answer": "Constant"
+    },
+    {
+        "question": "Which is the correct syntax to declare a constant in JavaScript?",
+        "options": [
+            "const constant_name;",
+            "constant_name const;",
+            "constant_name const = value;",
+            "const constant_name = value;"
+        ],
+        "answer": "const constant_name = value;"
+    },
+    {
+        "question": "What will be the value of VALUE?",
+        "options": [
+            "10",
+            "20",
+            "ValueError",
+            "TypeError"
+        ],
+        "answer": "TypeError"
+    },
+    {
+        "question": "What is the default value of an uninitialized variable?",
+        "options": [
+            "0",
+            "undefined",
+            "null",
+            "NaN"
+        ],
+        "answer": "undefined"
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\n```<script>\nvar a;\ndocument.getElementById(\"demo\").innerHTML = a+1;\n<script>```",
+        "options": [
+            "0",
+            "undefined",
+            "1",
+            "NaN"
+        ],
+        "answer": "NaN"
+    },
+    {
+        "question": "Can be redeclare a variable that is declared with var keyword?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes"
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\n```js\nvar name = \"Alex\" + \" \" + \"Alvin\";\ndocument.getElementById(\"demo\").innerHTML = name;\n```",
+        "options": [
+            "Alex Alvin",
+            "AlexAlvin",
+            "TypeError",
+            "ValueError"
+        ],
+        "answer": "Alex Alvin"
+    },
+    {
+        "question": "What is the output of the following JavaScript code?\n\n```<script>\nvar a = 10 + 20 + \"5\";\ndocument.getElementById(\"demo\").innerHTML = a;\n<script>```",
+        "options": [
+            "35",
+            "305",
+            "TypeError",
+            "ValueError"
+        ],
+        "answer": "305"
+    },
+    {
+        "question": "Can be redeclare a variable that is declared with let keyword?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No"
+    },
+    {
+        "question": "What is the output of the following JavaScript code (let example)?\n\n```<script>\nlet a = 10;\nlet a = 0;\n<script>```",
+        "options": [
+            "10",
+            "0",
+            "SyntaxError",
+            "TypeError"
+        ],
+        "answer": "SyntaxError"
+    },
+    {
+        "question": "Which is the exponentiation operator in JavaScript?",
+        "options": [
+            "exp()",
+            "^",
+            "**",
+            "pow"
+        ],
+        "answer": "**"
+    },
+    {
+        "question": "Does JavaScript support increment (++) and decrements (--) Operators?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```<script>\nvar x = 5;\ndocument.getElementById(\"demo\").innerHTML = x--;\n<script>```",
+        "options": [
+            "5",
+            "4",
+            "TypeError",
+            "ValueError"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```<script>\nvar x = 10 + 20 * 5;\ndocument.getElementById(\"tes\").innerHTML = x;\n<script>```",
+        "options": [
+            "110",
+            "150",
+            "TypeError",
+            "ValueError"
+        ],
+        "answer": "110"
+    },
+    {
+        "question": "JavaScript types are _____.",
+        "options": [
+            "Static",
+            "Dynamic"
+        ],
+        "answer": "Dynamic"
+    },
+    {
+        "question": "JavaScript arrays are written with _____.",
+        "options": [
+            "round brackets ()",
+            "curly brackets {}",
+            "double quotes \"\"",
+            "square brackets []"
+        ],
+        "answer": "square brackets []"
+    },
+    {
+        "question": "JavaScript objects are written with _____.",
+        "options": [
+            "round brackets ()",
+            "curly brackets {}",
+            "double quotes \"\"",
+            "square brackets []"
+        ],
+        "answer": "curly brackets {}"
+    },
+    {
+        "question": "Which JavaScript operator is used to determine the type of a variable?",
+        "options": [
+            "typeof",
+            "TypeOf",
+            "typeOf",
+            "sizeof"
+        ],
+        "answer": "typeof"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```<script>\nlet x = 10;\n\ndocument.write(x, \" , \", toString(x));\n<script>```",
+        "options": [
+            "10 , 10",
+            "10 , undefined",
+            "10 , [object Undefined]",
+            "None of the above"
+        ],
+        "answer": "10 , [object Undefined]"
+    }
+]

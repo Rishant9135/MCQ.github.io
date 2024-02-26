@@ -1,0 +1,287 @@
+[
+  {
+    "question": "What is the result of the expression '5 + 3 * 2' in C?",
+    "options": ["16", "11", "13", "10"],
+    "answer": "11"
+  },
+  {
+    "question": "Which header file is needed to use the 'printf' function in C?",
+    "options": ["<stdio.h>", "<stdlib.h>", "<math.h>", "<string.h>"],
+    "answer": "<stdio.h>"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5, y = 10;\n\tprintf(\"%d\", x++ + ++y);\n\treturn 0;\n}",
+    "options": ["15", "16", "17", "Compilation Error"],
+    "answer": "16"
+  },
+  {
+    "question": "Which operator is used to access the value stored at the address pointed by a pointer variable?",
+    "options": ["*", "&", "->", "."],
+    "answer": "*"
+  },
+  {
+    "question": "What does the 'sizeof' operator return in C?",
+    "options": ["Size of the variable", "Size of the pointer", "Size of the data type", "Size of the memory"],
+    "answer": "Size of the data type"
+  },
+  {
+    "question": "Which function is used to read a single character from the standard input in C?",
+    "options": ["getch()", "read()", "scanf()", "getchar()"],
+    "answer": "getchar()"
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in C?",
+    "options": ["To terminate the loop and transfer control to the next statement", "To skip the current iteration of the loop and continue with the next iteration", "To exit from the function", "To declare a switch case"],
+    "answer": "To terminate the loop and transfer control to the next statement"
+  },
+  {
+    "question": "Which of the following is not a valid storage class specifier in C?",
+    "options": ["auto", "static", "global", "extern"],
+    "answer": "global"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint arr[] = {1, 2, 3, 4, 5};\n\tprintf(\"%d\", arr[3]);\n\treturn 0;\n}",
+    "options": ["1", "2", "3", "4"],
+    "answer": "4"
+  },
+  {
+    "question": "Which escape sequence is used to print a newline character in C?",
+    "options": ["\\n", "\\r", "\\t", "\\b"],
+    "answer": "\\n"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tchar str[] = \"Hello\";\n\tprintf(\"%s\", str);\n\treturn 0;\n}",
+    "options": ["H", "Hello", "Garbage Value", "Compilation Error"],
+    "answer": "Hello"
+  },
+  {
+    "question": "What is the purpose of the 'continue' statement in C?",
+    "options": ["To terminate the loop and transfer control to the next statement", "To skip the current iteration of the loop and continue with the next iteration", "To exit from the function", "To declare a switch case"],
+    "answer": "To skip the current iteration of the loop and continue with the next iteration"
+  },
+  {
+    "question": "Which function is used to open a file in C?",
+    "options": ["open()", "fopen()", "file_open()", "read()"],
+    "answer": "fopen()"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tprintf(\"%d\", ++x);\n\treturn 0;\n}",
+    "options": ["5", "6", "Compilation Error", "Undefined Behavior"],
+    "answer": "6"
+  },
+  {
+    "question": "Which of the following is a valid comment in C?",
+    "options": ["// This is a comment", "# This is a comment", "<!-- This is a comment -->", "/* This is a comment */"],
+    "answer": "/* This is a comment */"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 10;\n\tint *ptr = &x;\n\tprintf(\"%p\", ptr);\n\treturn 0;\n}",
+    "options": ["10", "0", "Address of x", "Compilation Error"],
+    "answer": "Address of x"
+  },
+  {
+    "question": "Which of the following is not a valid arithmetic operator in C?",
+    "options": ["+", "-", "*", "**"],
+    "answer": "**"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5, y = 3;\n\tprintf(\"%d\", x / y);\n\treturn 0;\n}",
+    "options": ["1", "1.67", "1.75", "Compilation Error"],
+    "answer": "1"
+  },
+  {
+    "question": "Which function is used to close a file in C?",
+    "options": ["close()", "fclose()", "file_close()", "write()"],
+    "answer": "fclose()"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint arr[5] = {1, 2, 3, 4, 5};\n\tprintf(\"%d\", arr[5]);\n\treturn 0;\n}",
+    "options": ["1", "2", "3", "Garbage Value"],
+    "answer": "Garbage Value"
+  },
+  {
+    "question": "What is the purpose of the 'return' statement in C?",
+    "options": ["To terminate the loop and transfer control to the next statement", "To skip the current iteration of the loop and continue with the next iteration", "To exit from the function", "To declare a switch case"],
+    "answer": "To exit from the function"
+  },
+  {
+    "question": "Which of the following is not a valid type of function in C?",
+    "options": ["Void function", "Integer function", "Character function", "Float function"],
+    "answer": "Character function"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tprintf(\"%d\", x--);\n\treturn 0;\n}",
+    "options": ["5", "4", "6", "Compilation Error"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is a valid way to declare a multi-dimensional array in C?",
+    "options": ["int arr[][];", "int arr[3, 3];", "int arr[3][3];", "int arr[];"],
+    "answer": "int arr[3][3];"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tint *ptr = &x;\n\tprintf(\"%d\", *ptr++);\n\treturn 0;\n}",
+    "options": ["5", "6", "Compilation Error", "Undefined Behavior"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is not a valid relational operator in C?",
+    "options": ["==", "!=", "<>", "<="],
+    "answer": "<>"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 10, y = 20;\n\tint *ptr1 = &x, *ptr2 = &y;\n\tprintf(\"%d\", *ptr1 + *ptr2);\n\treturn 0;\n}",
+    "options": ["10", "20", "30", "Compilation Error"],
+    "answer": "30"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint arr[5] = {1, 2, 3, 4, 5};\n\tprintf(\"%d\", arr[0]);\n\treturn 0;\n}",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1"
+  },
+  {
+    "question": "What is the purpose of the 'void' keyword in C?",
+    "options": ["To declare a function that returns no value", "To declare an empty data type", "To declare a function that takes no arguments", "To declare a function that returns an integer"],
+    "answer": "To declare a function that returns no value"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tchar str[] = \"Hello\";\n\tprintf(\"%c\", str[5]);\n\treturn 0;\n}",
+    "options": ["H", "e", "o", "Garbage Value"],
+    "answer": "Garbage Value"
+  },
+  {
+    "question": "What is the purpose of the 'static' keyword in C?",
+    "options": ["To declare a global variable", "To declare a variable with static storage duration", "To declare a constant", "To declare a function"],
+    "answer": "To declare a variable with static storage duration"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 10;\n\tint *ptr = &x;\n\tprintf(\"%p\", ptr++);\n\treturn 0;\n}",
+    "options": ["10", "0", "Address of x", "Compilation Error"],
+    "answer": "Address of x"
+  },
+  {
+    "question": "Which keyword is used to define a structure in C?",
+    "options": ["class", "struct", "typedef", "union"],
+    "answer": "struct"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5, y = 10;\n\tint *ptr1 = &x, *ptr2 = &y;\n\tprintf(\"%d\", *ptr1 * *ptr2);\n\treturn 0;\n}",
+    "options": ["5", "10", "50", "100"],
+    "answer": "50"
+  },
+  {
+    "question": "What is the purpose of the 'do-while' loop in C?",
+    "options": ["To execute a block of code repeatedly as long as a condition is true", "To execute a block of code repeatedly until a condition becomes false", "To execute a block of code repeatedly with a specified number of iterations", "To execute a block of code once and then check a condition"],
+    "answer": "To execute a block of code repeatedly with a specified number of iterations"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tint *ptr = &x;\n\tprintf(\"%d\", *ptr);\n\treturn 0;\n}",
+    "options": ["5", "0", "Address of x", "Compilation Error"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the purpose of the 'goto' statement in C?",
+    "options": ["To exit from a loop", "To transfer control to a specified statement", "To declare a label", "To continue to the next iteration of a loop"],
+    "answer": "To transfer control to a specified statement"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 10;\n\tint *ptr = &x;\n\tprintf(\"%d\", *++ptr);\n\treturn 0;\n}",
+    "options": ["10", "11", "Compilation Error", "Undefined Behavior"],
+    "answer": "Compilation Error"
+  },
+  {
+    "question": "Which function is used to write a single character to the standard output in C?",
+    "options": ["putch()", "write()", "printf()", "putchar()"],
+    "answer": "putchar()"
+  },
+  {
+    "question": "What is the purpose of the 'const' keyword in C?",
+    "options": ["To declare a constant variable", "To declare a variable with constant value", "To declare a variable that cannot be modified", "To declare a variable that cannot be accessed"],
+    "answer": "To declare a variable that cannot be modified"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tprintf(\"%d\", x++);\n\treturn 0;\n}",
+    "options": ["5", "6", "Compilation Error", "Undefined Behavior"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is not a valid logical operator in C?",
+    "options": ["&&", "||", "!", "<>"],
+    "answer": "<>"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tint *ptr = &x;\n\tprintf(\"%d\", (*ptr)++);\n\treturn 0;\n}",
+    "options": ["5", "6", "Compilation Error", "Undefined Behavior"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the purpose of the 'typedef' keyword in C?",
+    "options": ["To define a new data type", "To declare a variable", "To declare a function", "To define a constant"],
+    "answer": "To define a new data type"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tint *ptr = &x;\n\tprintf(\"%d\", *ptr--);\n\treturn 0;\n}",
+    "options": ["5", "4", "Compilation Error", "Undefined Behavior"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is not a valid bitwise operator in C?",
+    "options": ["&", "|", "^", "!"],
+    "answer": "!"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 5;\n\tint *ptr = &x;\n\tprintf(\"%d\", (*ptr)--);\n\treturn 0;\n}",
+    "options": ["5", "4", "Compilation Error", "Undefined Behavior"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the purpose of the 'sizeof' operator in C?",
+    "options": ["To return the size of a variable", "To return the size of a data type", "To return the size of a pointer", "To return the size of the memory"],
+    "answer": "To return the size of a data type"
+  },
+  {
+    "question": "Which function is used to allocate memory dynamically in C++?",
+    "options": ["alloc", "new", "malloc", "allocate"],
+    "answer": "malloc"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint arr[5];\n\tprintf(\"%d\", sizeof(arr));\n\treturn 0;\n}",
+    "options": ["5", "10", "20", "Compilation Error"],
+    "answer": "20"
+  },
+  {
+    "question": "Which of the following is not a valid data type modifier in C?",
+    "options": ["short", "long", "unsigned", "signed"],
+    "answer": "signed"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tprintf(\"%d\", sizeof(int));\n\treturn 0;\n}",
+    "options": ["2", "4", "8", "Depends on the system architecture"],
+    "answer": "Depends on the system architecture"
+  },
+  {
+    "question": "Which keyword is used to define a constant in C?",
+    "options": ["define", "const", "constant", "static"],
+    "answer": "const"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tint x = 10;\n\tint *ptr = &x;\n\tprintf(\"%d\", *ptr--);\n\treturn 0;\n}",
+    "options": ["10", "9", "Compilation Error", "Undefined Behavior"],
+    "answer": "10"
+  },
+  {
+    "question": "Which of the following is a valid way to declare a constant in C?",
+    "options": ["#define PI 3.14", "const PI = 3.14", "PI = 3.14", "int PI = 3.14"],
+    "answer": "#define PI 3.14"
+  },
+  {
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\n\nint main() {\n\tchar str[] = \"Hello\";\n\tprintf(\"%c\", str[0]);\n\treturn 0;\n}",
+    "options": ["H", "e", "o", "Garbage Value"],
+    "answer": "H"
+  },
+  {
+    "question": "Which of the following is not a valid loop in C?",
+    "options": ["for loop", "while loop", "do-while loop", "until loop"],
+    "answer": "until loop"
+  }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "question": "Which of the following property is used to get the length of the selected filename using FIleUpload control?",
+        "options": ["PostedFile.ContentLength", "PostedFile.Length", "PostedFile.FileLength", "None of the above"],
+        "answer": "FileUpload1.PostedFile.ContentLength",
+        "explanation": "The \"FileUpload1.PostedFile.ContentLength\" property is used to get the length of the selected filename using FileUpload control."
+    },
+    {
+        "question": "Which of the following statement is correct about cookies in ASP.NET?",
+        "options": ["Cookies are code snippets to read data from a web server.", "Cookies are code snippets to download data from a web server.", "Cookies are small pieces of data stored on the webserver", "Cookies are small pieces of data created by a web application while a user is browsing a website."],
+        "answer": "Cookies are small pieces of data created by a web application while a user is browsing a website.",
+        "explanation": "Cookies are small pieces of data created by a web application while a user is browsing a website."
+    },
+    {
+        "question": "Which of the following statement is the correct way to store cookies in ASP.NET?",
+        "options": ["Using cookies collection", "Using HttpCookie class", "Both of the above", "None of the above"],
+        "answer": "Both of the above",
+        "explanation": "We can store cookies using cookies collection and HttpCookie class in ASP.NET."
+    },
+    {
+        "question": "Cookies can store data up to?",
+        "options": ["10 KB", "4 KB", "1 MB", "1 GB"],
+        "answer": "4 KB",
+        "explanation": "We can store data up to 4KB in cookies."
+    },
+    {
+        "question": "Cookies are stored in?",
+        "options": ["Main Memory", "Hard Drive", "Cache Memory", "CPU Registers"],
+        "answer": "Hard Drive",
+        "explanation": "The cookies are stored on Hard Drive."
+    },
+    {
+        "question": "Is the browser store cookies for different websites the user visited?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, the Browser stores cookies for different websites users visited."
+    },
+    {
+        "question": "Which of the following property is used to set the cookie's expiration date and time in ASP.NET?",
+        "options": ["Response.Cookies [\"mycookie\"].ExpiresDateTime", "Response.Cookies [\"mycookie\"].Expires", "Response.Cookies [\"mycookie\"].ExpiresTime", "Response.Cookies [\"mycookie\"].RemoveDateTime"],
+        "answer": "Response.Cookies[\"mycookie\"].Expires",
+        "explanation": "The \"Response.Cookies[\"mycookie\"].Expires\" property is used to set the cookie's expiration date and time in ASP.NET."
+    },
+    {
+        "question": "Which of the following method is used to store a HttpCookie in ASP.NET?",
+        "options": ["Response.Cookies.Add()", "Response.Cookies.SaveCookie()", "Response.Cookies.AddCookie()", "Response.Cookies.AddCookies()"],
+        "answer": "Response.Cookies.Add()",
+        "explanation": "The \"Response.Cookies.Add()\" method is used to store a HttpCookie in ASP.NET."
+    },
+    {
+        "question": "Which of the following property is used to get cookies value in ASP.NET?",
+        "options": ["Response.Cookies[\"cookiename\"].GetValue", "Response.Cookies[\"cookiename\"].CookieValue", "Response.Cookies[\"cookiename\"].GetCookieValue", "Response.Cookies[\"cookiename\"].Value"],
+        "answer": "Response.Cookies[\"cookiename\"].Value",
+        "explanation": "The \"Response.Cookies[\"student\"].Value\" property is used to get a cookies value in ASP.NET."
+    },
+    {
+        "question": "Which of the following statement is correct about HyperLink control in ASP.NET?",
+        "options": ["ASP.NET does not support HyperLink control.", "It is an ASP.NET control, that responds to a click event.", "It cannot be used to refer to a webpage on the server", "The hyperLink is also known as LinkButton in ASP.NET"],
+        "answer": "It is an ASP.NET control, that responds to a click event.",
+        "explanation": "It is an ASP.NET control, that responds to a click event."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET hyperlink?",
+        "options": ["< asp:HyperLink ID=\"ih1\" runat=\"server\" Text=\"IncludeHelp\" NavigateUrl=\"www.includehelp.com\" ></asp:HyperLink>", "< asp.net:HyperLink ID=\"ih1\" runat=\"server\" Text=\"IncludeHelp\" NavigateUrl=\"www.includehelp.com\" ></asp.net:HyperLink>", "< asp_net:HyperLink ID=\"ih1\" runat=\"server\" Text=\"IncludeHelp\" NavigateUrl=\"www.includehelp.com\" ></asp_net:HyperLink>", "None of the above"],
+        "answer": "< asp:HyperLink ID=\"ih1\" runat=\"server\" Text=\"IncludeHelp\" NavigateUrl=\"www.includehelp.com\" ></asp:HyperLink>",
+        "explanation": "The first syntax is correct to create an ASP.NET hyperlink. Here we refer <a href=\"http://www.includehelp.com\">to www.includehelp.com</a> from the hyperlink."
+    },
+    {
+        "question": "Which of the following property is used to set the shortcut key for ASP.NET hyperlink control?",
+        "options": ["Shortcut", "Shortcut Key", "Access Key", "Access Shortcut Key"],
+        "answer": "Access Key",
+        "explanation": "The AccessKey property is used to set the shortcut key for hyperlink control."
+    },
+    {
+        "question": "Which of the following statement is correct about ToolTip?",
+        "options": ["It is used to implement a click event for ASP.NET control.", "It displays a text when the mouse is over the ASP.NET control.", "It is used to remove webpage cookies.", "None of the above"],
+        "answer": "It displays a text when the mouse is over the ASP.NET control.",
+        "explanation": "The Tooltip is used to display a text when the mouse is over the ASP.NET control."
+    },
+    {
+        "question": "The ToolTip is?",
+        "options": ["An event", "A property", "An event handler", "None of the above"],
+        "answer": "A property",
+        "explanation": "The Tooltip is a property, which is used to display a text when the mouse is over the ASP.NET control."
+    },
+    {
+        "question": "Which of the following property is used to set the URL for HyperLink control?",
+        "options": ["Set URL", "URL", "Navigate Url", "None of the above"],
+        "answer": "Navigate Url",
+        "explanation": "The NavigateUrl property is used to set the URL for Hyperlink control."
+    },
+    {
+        "question": "Server renders ASP.NET Hyperlink to HTML hyperlink for the browser?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, Web Server renders ASP.NET Hyperlink to HTML hyperlink for the browser."
+    },
+    {
+        "question": "Which of the following HTML tag is used for a hyperlink?",
+        "options": ["<hyper>", "<rd>", "<input>", "<radio button>"],
+        "answer": "<a>",
+        "explanation": "The <a> tag is used for hyperlink in HTML."
+    },
+    {
+        "question": "Which of the following statement is correct about RadioButton control in ASP.NET?",
+        "options": ["It is an ASP.NET control that is used to select a choice from the group of choices.", "It is an ASP.NET control that is used to select multiple choices from a group of choices.", "ASP.NET does not support RadioButton control in ASP.NET.", "None of the above"],
+        "answer": "It is an ASP.NET control that is used to select a choice from the group of choices.",
+        "explanation": "The RadioButton control is used to select a choice from the group of choices."
+    },
+    {
+        "question": "Can we create RadioButton control using drag and drop, in Visual Studio?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can create RadioButton control using drag and drop, in Visual Studio."
+    },
+    {
+        "question": "What is the correct syntax to create ASP.NET RadioButton control?",
+        "options": ["<asp:RB ID=\"RB1\" runat=\"server\" Text=\"Male\" GroupName=\"gender\"/>", "<asp:RD ID=\"RB1\" runat=\"server\" Text=\"Male\" GroupName=\"gender\"/>", "<asp:RadioButton ID=\"RB1\" runat=\"server\" Text=\"Male\" GroupName=\"gender\"/>", "None of the above"],
+        "answer": "<asp:RadioButton ID=\"RB1\" runat=\"server\" Text=\"Male\" GroupName=\"gender\"/>",
+        "explanation": "The 3rd syntax is correct to create an ASP.NET RadioButton control."
+    },
+    {
+        "question": "Can we create RadioButton using an HTML tag?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "The <input> tag is used in HTML to create a RadioButton."
+    },
+    {
+        "question": "Which of the following property is used to set tab order for ASP.NET RadioButton control?",
+        "options": ["Tab Order", "Tab Index", "Index", "Tab"],
+        "answer": "Tab Index",
+        "explanation": "The TabIndex property is used to set the tab order for ASP.NET RadioButton control."
+    },
+    {
+        "question": "Which of the following property is used to set visibility for ASP.NET RadioButton control?",
+        "options": ["Visible", "Set Visibility", "Visibility", "None"],
+        "answer": "Visible",
+        "explanation": "The Visible property is used to set visibility for ASP.NET RadioButton control."
+    },
+    {
+        "question": "Which of the following property is used to set the group name for ASP.NET RadioButton control?",
+        "options": ["Group", "Group Name", "G Name", "None"],
+        "answer": "Group Name",
+        "explanation": "The GroupName property is used to set the group name for ASP.NET RadioButton control."
+    },
+    {
+        "question": "Server renders ASP.NET RadioButon to HTML RadioButon for the browser?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, the Web Server renders ASP.NET RadioButton to HTML RadioButton for the browser."
+    },
+    {
+        "question": "Which of the following HTML tag is used for the radio button?",
+        "options": ["<radio>", "<rd>", "<input>", "<radio button>"],
+        "answer": "<input>",
+        "explanation": "The <input> tag is used for radio button in HTML."
+    },
+    {
+        "question": "Can we implement a click event for RadioButton in ASP.NET?",
+        "options": ["True", "False"],
+        "answer": "True",
+        "explanation": "Yes, we can implement a click event for RadioButton control in ASP.NET."
+    },
+    {
+        "question": "Which of the following property is used to set the keyboard shortcut key for Label control?",
+        "options": ["Shortcut", "Access Key", "Key", "Shortcut Key"],
+        "answer": "Access Key",
+        "explanation": "The AccessKey property is used to set the keyboard shortcut key for label control."
+    },
+    {
+        "question": "Which of the following property is used to set tab index for web controls?",
+        "options": ["Index", "Tab Index", "Tab", "None"],
+        "answer": "Tab Index",
+        "explanation": "The TabIndex property is used to set the tab index for web controls."
+    }
+]

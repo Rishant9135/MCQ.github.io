@@ -1,0 +1,150 @@
+[{
+        "question": "Which method deletes a file in Java?",
+        "options": [
+            "file.delete()",
+            "file.remove()",
+            "file.garbage()",
+            "file.dump()"
+        ],
+        "answer": "file.delete()",
+        "explanation": "The file.delete() method is used to delete a file in Java."
+    },
+    {
+        "question": "Which method in java is used to read lines from file?",
+        "options": [
+            "file.read()",
+            "file.nextLine()",
+            "file.getLine()",
+            "All of these"
+        ],
+        "answer": "file.getLine()",
+        "explanation": "The file.getLine() method is used to read lines from a file."
+    },
+    {
+        "question": "The correct syntax to import the math library in java is ___.",
+        "options": [
+            "import java.lang.math",
+            "import math",
+            "import java.math",
+            "All of these"
+        ],
+        "answer": "import java.lang.math",
+        "explanation": "The correct syntax to import the math library in java is: import java.lang.math"
+    },
+    {
+        "question": "Which is/are valid method(s) of math library in java?",
+        "options": [
+            "max()",
+            "cbrt()",
+            "log10()",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "Some common methods of the math library are max(), min(), cbrt(), pow(), log(), log10(), etc."
+    },
+    {
+        "question": "Which method in java is used to generate random numbers in Java?",
+        "options": [
+            "random.nextInt()",
+            "random()",
+            "rand()",
+            "All of these"
+        ],
+        "answer": "random.nextInt()",
+        "explanation": "The Java method random.nextInt() is used to generate random numbers."
+    },
+    {
+        "question": "In java, recursion is ___.",
+        "options": [
+            "Method",
+            "A process allowing methods to call itself",
+            "The process to call methods",
+            "None of these"
+        ],
+        "answer": "A process allowing methods to call itself",
+        "explanation": "The recursion is a process by which a process allow methods to call itself."
+    },
+    {
+        "question": "What is stringBuffer in java?",
+        "options": [
+            "Class to create a string array",
+            "Class to create a mutable string in java",
+            "Class to create a string from i/o buffer",
+            "All of these"
+        ],
+        "answer": "Class to create a mutable string in java",
+        "explanation": "StringBuffer class is used to create modifiable strings in java."
+    },
+    {
+        "question": "Which of the following is a valid data structure in java?",
+        "options": [
+            "Array",
+            "List",
+            "Vector",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "All of the above (Array, List, and Vector) are valid data structures in Java."
+    },
+    {
+        "question": "Which syntax is valid to create a vector in java?",
+        "options": [
+            "Vector < string > names = new Vector < String > ();",
+            "Vector name = new string;",
+            "int name = new vector ()",
+            "All of these"
+        ],
+        "answer": "Vector < string > names = new Vector < String > ();",
+        "explanation": "The syntax to create a vector in Java is: Vector < string > names = new Vector < String > ();"
+    },
+    {
+        "question": "What will be the output of following Java code?\n\npublic class Main {\n  public static void main(String[] args) {\n    StringBuffer sb = new StringBuffer(\"include\");\n    sb.append(\"help\");\n    System.out.println(sb);\n  }\n}",
+        "options": [
+            "Error",
+            "include",
+            "help",
+            "Includehelp"
+        ],
+        "answer": "Includehelp",
+        "explanation": "The string here is a StringBuffer hence the contents can be edited which makes the append method work on it by adding 'help' to the end of the string."
+    },
+    {
+        "question": "What is a deadlock in Java?",
+        "options": [
+            "State when all processes have complete working and are dead",
+            "State when threads are in hold state forever",
+            "State when threads are not ready",
+            "All of these"
+        ],
+        "answer": "State when threads are in hold state forever",
+        "explanation": "Deadlock in Java is a condition when two or more threads try to access the same resources at the same time."
+    },
+    {
+        "question": "Which graph is used to check for deadlock in Java?",
+        "options": [
+            "Deadlock graph",
+            "Time graph",
+            "Wait-for-graph",
+            "None of these"
+        ],
+        "answer": "Wait-for-graph",
+        "explanation": "The wait-for-graph is used to check for deadlock in Java."
+    },
+    {
+        "question": "Batch processing in java is ___.",
+        "options": [
+            "Used to execute a group of queries or a batch as executing a single query, again and again, is time taking and reduce the performance",
+            "Used to processing multiple queries can be executed at once",
+            "Used to increase program's performance",
+            "All of these"
+        ],
+        "answer": "All of these",
+        "explanation": "Read more: Batch Processing in Java."
+    },
+    {
+        "question": "Discuss the following Question",
+        "options": [],
+        "answer": "",
+        "explanation": "convert the provided in the above provided solution in json format"
+    }
+]

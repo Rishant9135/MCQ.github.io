@@ -1,0 +1,102 @@
+[
+    {
+        "question": "JavaScript is the programming language of the _____.",
+        "options": ["Desktop", "Mobile", "Web", "Server"],
+        "answer": "Web"
+    },
+    {
+        "question": "Which type of JavaScript language is _____?",
+        "options": ["Object-oriented", "Object-based", "Functional programming", "All of the above"],
+        "answer": "Object-based"
+    },
+    {
+        "question": "Which of the following statement(s) is true about the JavaScript?",
+        "options": ["It is a scripting language used to make the website interactive", "It is an advanced version of Java for Desktop and Mobile application development", "It is a markup language of Java to develop the webpages", "All of the above"],
+        "answer": "It is a scripting language used to make the website interactive"
+    },
+    {
+        "question": "In which HTML element, we put the JavaScript code?",
+        "options": ["<javascript>...</javascript>", "<js>...</js>", "<script>...</script>", "<css>...</css>"],
+        "answer": "<script>...</script>"
+    },
+    {
+        "question": "JavaScript code can be written in ___.",
+        "options": ["JavaScript file (.js file)", "HTML document directly", "JavaScript file and in HTML document directly", "In style sheets (.css file)"],
+        "answer": "JavaScript file and in HTML document directly"
+    },
+    {
+        "question": "Which symbol is used separate JavaScript statements?",
+        "options": ["Comma (,)", "Colon (:) ", "Hyphen ()", "Semicolon (;)"],
+        "answer": "Semicolon (;)"
+    },
+    {
+        "question": "JavaScript ignores?",
+        "options": ["newlines", "tabs", "spaces", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which is the correct syntax to call an external JavaScript file in the current HTML document?",
+        "options": ["<script src=\"jsfile.js\"></script>", "<script href=\" jsfile.js\"></script>", "<import src=\" jsfile.js\"></import>", "<script link=\" jsfile.js\"></script>"],
+        "answer": "<script src=\"jsfile.js\"></script>"
+    },
+    {
+        "question": "Which JavaScript method is used to access an HTML element by id?",
+        "options": ["getElementById()", "getElement(id)", "getElementById(id)", "elementById(id)"],
+        "answer": "getElementById(id)"
+    },
+    {
+        "question": "Which property is used to define the HTML content to an HTML element with a specific id?",
+        "options": ["innerText", "innerContent", "elementText", "innerHTML"],
+        "answer": "innerHTML"
+    },
+    {
+        "question": "Which JavaScript method is used to write HTML output?",
+        "options": ["document.write()", "document.output()", "console.log()", "document.writeHTML()"],
+        "answer": "document.write()"
+    },
+    {
+        "question": "Which JavaScript method is used to write on browser's console?",
+        "options": ["console.write()", "console.output()", "console.log()", "console.writeHTML()"],
+        "answer": "console.log()"
+    },
+    {
+        "question": "Which JavaScript method is used to write into an alert box?",
+        "options": ["window.alertHTML()", "window.alert()", "window.alertBox()", "window.alertContent()"],
+        "answer": "window.alert()"
+    },
+    {
+        "question": "Which is the correct JavaScript statement to display \"Hello Boss!\" into an alert box?",
+        "options": ["alert(\"Hello Boss!\");", "alert('Hello Boss!');", "alert(Text:'Hello Boss!');", "Both A. and B."],
+        "answer": "Both A. and B."
+    },
+    {
+        "question": "Which is the correct JavaScript statement to print the addition of two numbers 10 and 20 in a paragraph whose id is 'result'?",
+        "options": ["getElementById(\"result\").innerHTML = 10+20;", "getElementById(\"result\").innerHTML = \"10+20\";", "getElementById(\"#result\").innerHTML = 10+20;", "All of the above"],
+        "answer": "getElementById(\"result\").innerHTML = 10+20;"
+    },
+    {
+        "question": "What is the use of this JavaScript statement?\n\n<button onclick=\"window.print()\">Submit</button>",
+        "options": ["It will write \"Submit\" on the current Window", "It will print the content of the current page", "It will write the content of the current page in the browser’s console", "None of the above"],
+        "answer": "It will print the content of the current page"
+    },
+    {
+        "question": "In JavaScript, single line comment begins with __.",
+        "options": ["#", "/", "<!—", "//"],
+        "answer": "//"
+    },
+    {
+        "question": "In JavaScript, multi-line comments start with __ and end with __.",
+        "options": ["/* and */", "<!— and -->", "## and ##", "// and //"],
+        "answer": "/* and */"
+    },
+    {
+        "question": "Which JavaScript keyword is used to declare a variable?",
+        "options": ["Var", "var", "Let", "All of the above"],
+        "answer": "var"
+    },
+    {
+        "question": "How many keywords are there in JavaScript to declare variables or constants?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+    }
+]

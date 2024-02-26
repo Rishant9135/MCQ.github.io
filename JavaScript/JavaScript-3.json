@@ -1,0 +1,196 @@
+[
+    {
+        "question": "Which is the correct syntax of JavaScript typeof operator?",
+        "options": [
+            "typeof variable/value",
+            "typeof(variable/value)",
+            "Both A. and B.",
+            "None of the above"
+        ],
+        "answer": "Both A. and B."
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nvar x = 12.34;\ndocument.getElementById(\"test\").innerHTML = typeof(x);\n```",
+        "options": [
+            "int",
+            "float",
+            "long",
+            "number"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Which keyword is used to define a JavaScript function?",
+        "options": [
+            "module",
+            "fun",
+            "func",
+            "function"
+        ],
+        "answer": "function"
+    },
+    {
+        "question": "Which is the correct syntax for the function definition?",
+        "options": [
+            "return_type function function_name(parameter1, parameter2, ...) { /*Function's body*/ }",
+            "function function_name(parameter1, parameter2, ...) { /*Function's body*/ }",
+            "return_type function_name(parameter1, parameter2, ...) { /*Function's body*/ }",
+            "function function_name(parameter1, parameter2, ...) as return_type { /*Function's body*/ }"
+        ],
+        "answer": "function function_name(parameter1, parameter2, ...) { /*Function's body*/ }"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nfunction addition(a, b) {\n    return a+b;\n}\ndocument.getElementById(\"test\").innerHTML = addition;\n```",
+        "options": [
+            "SyntaxError",
+            "ValueError",
+            "0",
+            "function addition(a, b) { return a+b; }"
+        ],
+        "answer": "function addition(a, b) { return a+b; }"
+    },
+    {
+        "question": "Can we use a function as a variable value?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes"
+    },
+    {
+        "question": "In JavaScript a variable contains one value while an object may contain ___.",
+        "options": [
+            "One value",
+            "Two values",
+            "Three values",
+            "Many values"
+        ],
+        "answer": "Many values"
+    },
+    {
+        "question": "Which is the correct syntax to access an object property in JavaScript?",
+        "options": [
+            "objectName:propertyName",
+            "propertyName",
+            "objectName[\"propertyName\"]",
+            "Both B. and C."
+        ],
+        "answer": "Both B. and C."
+    },
+    {
+        "question": "Which property is used to get the length of a string in JavaScript?",
+        "options": [
+            "strlen",
+            "len",
+            "length",
+            "Length"
+        ],
+        "answer": "length"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet str = \"IncludeHelp\";\ndocument.getElementById(\"test\").innerHTML = str.length;\n```",
+        "options": [
+            "11",
+            "12",
+            "ValueError",
+            "SyntaxError"
+        ],
+        "answer": "11"
+    },
+    {
+        "question": "Which character is used to break up a code line within a text string in JavaScript?",
+        "options": [
+            "Single quote (')",
+            "Single backslash (\\')",
+            "Backslashes (\\\\)",
+            "Back-ticks (``)"
+        ],
+        "answer": "Single backslash (\\')"
+    },
+    {
+        "question": "Will the following JavaScript code work?\n\n```js\ndocument.getElementById(\"test\").innerHTML = \\\n    \"Hello, IncludeHelp!\";\n```",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No"
+    },
+    {
+        "question": "Which is the correct JavaScript statement to define string as object?",
+        "options": [
+            "var s = new String(\"IncludeHelp!\");",
+            "var s = String(\"IncludeHelp!\");",
+            "var s = \"IncludeHelp!\"",
+            "All of the above"
+        ],
+        "answer": "var s = new String(\"IncludeHelp!\");"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet str1 = new String(\"IncludeHelp!\");\nlet str2 = new String(\"IncludeHelp!\");\ndocument.getElementById(\"test\").innerHTML = (str1==str2);\n```",
+        "options": [
+            "true",
+            "false",
+            "True",
+            "False"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Which is/are the valid JavaScript method(s) to extract string parts?",
+        "options": [
+            "slice(start, end)",
+            "substring(start, end)",
+            "substr(start, length)",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nlet x = \"Hello, IncludeHelp!\";\ndocument.getElementById(\"test\").innerHTML = x.slice(-13,-1);\n```",
+        "options": [
+            "IncludeHelp!",
+            "IncludeHelp",
+            "ValueError",
+            "Hello,"
+        ],
+        "answer": "IncludeHelp"
+    },
+    {
+        "question": "In JavaScript, the string template literals use ____ rather than the quotes (\"\") to define a string?",
+        "options": [
+            "Single quotes ('')",
+            "Single backslash (\\'\\')",
+            "Backslashes (\\\\)",
+            "Back-ticks (``)"
+        ],
+        "answer": "Back-ticks (``)"
+    },
+    {
+        "question": "Does the following JavaScript variable definition is correct?\n\n```js\nlet x = `I'm \"David!\"`;\n```",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes"
+    },
+    {
+        "question": "Which JavaScript method is used to get a number as a string?",
+        "options": [
+            "toString()",
+            "intToString()",
+            "parseInteger()",
+            "All of the above"
+        ],
+        "answer": "toString()"
+    },
+    {
+        "question": "What will be the output of the following JavaScript code?\n\n```js\nconst myArray = ['h', 'e', 'l', 'l', 'o'];\ndocument.write(myArray[0]);\ndocument.write(myArray[1]);\n```",
+        "options": [
+            "he",
+            "undefinedh",
+            "ValueError",
+            "TypeError"
+        ],
+        "answer": "he"
+    }
+]
